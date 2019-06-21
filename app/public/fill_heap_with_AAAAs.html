@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <script>
+        const aauHeap = [];
+        const bigUint64 = new BigUint64Array();
+        for (let i = 0; i < bigUint64.length; i++) {
+            //bigUint64[i] = 0xAAAAAAAAAAAAAAAA;
+            bigUint64[i] = 12297829382473034410;
+        }
+        console.log("bigUint64", bigUint64);
+        while (true) {
+            console.log("Allocating");
+            aauHeap.push(bigUint64);
+        };
+        alert("Done");
+        console.log("Done");
+    </script>
+</head>
+</html>
+
+<!--
+Result:
+Page unresponsive for several minutes.
+The only choice is to quit.
+-->
