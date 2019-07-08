@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <script>
+       // var uValue = 0xBADC0DED; // The value to store at this address.
+        var uValue = 0xAAAAAAAA; // The value to store at this address.
+        var aauHeap = [];
+        while (true) {
+            var auHeap = new Uint8Array(0x30000000);
+            for (var uOffset = 0; uOffset < 4; uOffset++) {
+                var uByteValue = (uValue >> (uOffset * 8)) & 0xFF;
+                auHeap[uOffset] = uByteValue;
+            }
+            console.log("Allocating 0x30000000 bytes");
+            aauHeap.push(auHeap);
+        }
+        console.log("Done");
+    </script>
+</head>
+</html>
+
+// tab crash
