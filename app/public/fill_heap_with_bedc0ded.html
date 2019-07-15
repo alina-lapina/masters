@@ -7,7 +7,7 @@
        // var uValue = 0xBADC0DED; // The value to store at this address.
         var uValue = 0xAAAAAAAA; // The value to store at this address.
         var aauHeap = [];
-        while (true) {
+    //    while (true) {
             var auHeap = new Uint8Array(0x30000000);
             for (var uOffset = 0; uOffset < 4; uOffset++) {
                 var uByteValue = (uValue >> (uOffset * 8)) & 0xFF;
@@ -15,10 +15,9 @@
             }
             console.log("Allocating 0x30000000 bytes");
             aauHeap.push(auHeap);
-        }
+ //       }
         console.log("Done");
     </script>
 </head>
 </html>
 
-// tab crash

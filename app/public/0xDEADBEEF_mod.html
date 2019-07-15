@@ -21,7 +21,7 @@
       console.log("Allocating 0x" + uArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
 
 	  // value writing
-      for (var uOffset = 0; uOffset < 8; uOffset++) {
+      for (var uOffset = 0; uOffset < 4; uOffset++) {
         var uByteIndex = uTargetAddress - uArrayBase + uOffset,
             uByteValue = (uValue >> (uOffset * 8)) & 0xFF;
         auHeap[uByteIndex] = uByteValue;
