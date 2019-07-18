@@ -9,7 +9,7 @@
             uMaxArraySize = 0x30000000;
         var aauHeap = [];
             console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
-            aauHeap.push(auHeap = new Uint16Array(uMaxArraySize));
+            aauHeap.push(auHeap = new Uint32Array(uMaxArraySize));
             uArrayBase += uMaxArraySize + uArraySeparation;
         auHeap[0] = 0;
         auHeap[1] = 1;
@@ -27,17 +27,7 @@
         auHeap[11] = 11;
         alert("!address 0x80004000;dd 0x80004000");
 
-        // !address          0`80004000        0`e0004000        0`60000000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
-
-        // 0:022> dd 0x80004000
-        //00000000`80004000  00010000 00030002 00050004 00070006
-        //00000000`80004010  00090008 000b000a 00000000 00000000
-        //00000000`80004020  00000000 00000000 00000000 00000000
-        //00000000`80004030  00000000 00000000 00000000 00000000
-        //00000000`80004040  00000000 00000000 00000000 00000000
-        //00000000`80004050  00000000 00000000 00000000 00000000
-        //00000000`80004060  00000000 00000000 00000000 00000000
-        //00000000`80004070  00000000 00000000 00000000 00000000
+// failed to allocate
 
     </script>
 </head>
