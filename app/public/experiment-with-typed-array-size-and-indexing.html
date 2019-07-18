@@ -5,37 +5,38 @@
     <title>Experiment with typed array size and indexing</title>
     <script>
         var uArrayBase = 0x80004000,
-            uMaxArraySize = 0x10000000;
+            uMaxArraySize = 0xF1FFFFF;
         var aauHeap = [];
             console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
-            aauHeap.push(auHeap = new Uint32Array(uMaxArraySize));
-        auHeap[0] = 0;
-        auHeap[1] = 1;
-        auHeap[2] = 2;
-        auHeap[3] = 3;
+            aauHeap.push(auHeap = new BigUint64Array(uMaxArraySize));
+        auHeap[0] = BigInt(0);
+        auHeap[1] = BigInt(1);
+        auHeap[2] = BigInt(2);
+        auHeap[3] = BigInt(3);
 
-        auHeap[4] = 4;
-        auHeap[5] = 5;
-        auHeap[6] = 6;
-        auHeap[7] = 7;
+        auHeap[4] = BigInt(4);
+        auHeap[5] = BigInt(5);
+        auHeap[6] = BigInt(6);
+        auHeap[7] = BigInt(7);
 
-        auHeap[8] = 8;
-        auHeap[9] = 9;
-        auHeap[10] = 10;
-        auHeap[11] = 11;
+        auHeap[8] = BigInt(8);
+        auHeap[9] = BigInt(9);
+        auHeap[10] = BigInt(10);
+        auHeap[11] = BigInt(11);
         alert("!address 0x80004000;dd 0x80004000");
 
-// !address          0`80004000        0`c0004000        0`40000000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+// !address                   0`80004000        0`f9004000        0`79000000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
 
         // dd 0`80004000
-        //00000000`80004000  00000000 00000001 00000002 00000003
-        //00000000`80004010  00000004 00000005 00000006 00000007
-        //00000000`80004020  00000008 00000009 0000000a 0000000b
-        //00000000`80004030  00000000 00000000 00000000 00000000
-        //00000000`80004040  00000000 00000000 00000000 00000000
-        //00000000`80004050  00000000 00000000 00000000 00000000
+        //00000000`80004000  00000000 00000000 00000001 00000000
+        //00000000`80004010  00000002 00000000 00000003 00000000
+        //00000000`80004020  00000004 00000000 00000005 00000000
+        //00000000`80004030  00000006 00000000 00000007 00000000
+        //00000000`80004040  00000008 00000000 00000009 00000000
+        //00000000`80004050  0000000a 00000000 0000000b 00000000
         //00000000`80004060  00000000 00000000 00000000 00000000
         //00000000`80004070  00000000 00000000 00000000 00000000
+
 
 
     </script>
