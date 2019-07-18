@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New content for 0xDEADBEEF</title>
+    <script>
+        var uTargetAddress = 0xDEADBEEF, // The address to allocated
+            uArrayBase = 0x80004000,
+            uArraySeparation = 0x200000,
+            uMaxArraySize = 0x30000000;
+        var aauHeap = [];
+        while (uArrayBase + uMaxArraySize <= uTargetAddress) {
+            console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
+            aauHeap.push(auHeap = new Uint8Array(uMaxArraySize));
+            uArrayBase += uMaxArraySize + uArraySeparation;
+        };
+        var uArraySize = uTargetAddress - uArrayBase + 4,
+            auHeap = new Uint8Array(uArraySize);
+        console.log("Allocating 0x" + uArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
+        auHeap[0] = 0;
+        auHeap[1] = 1;
+        auHeap[2] = 2;
+        auHeap[3] = 3;
+        alert("!address 0`b0204000;dd 0`b0204000");
+
+        // WinDbg output:
+        //0:023> dd 0`b0204000
+        //00000000`b0204000  03020100 00000000 00000000 00000000
+        //00000000`b0204010  00000000 00000000 00000000 00000000
+        //00000000`b0204020  00000000 00000000 00000000 00000000
+        //00000000`b0204030  00000000 00000000 00000000 00000000
+        //00000000`b0204040  00000000 00000000 00000000 00000000
+        //00000000`b0204050  00000000 00000000 00000000 00000000
+        //00000000`b0204060  00000000 00000000 00000000 00000000
+        //00000000`b0204070  00000000 00000000 00000000 00000000
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
