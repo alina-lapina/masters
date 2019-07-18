@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment with typed array size and indexing</title>
+    <script>
+        var uArrayBase = 0x80004000,
+            uArraySeparation = 0x200000,
+            uMaxArraySize = 0x30000000;
+        var aauHeap = [];
+            console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
+            aauHeap.push(auHeap = new Uint8Array(uMaxArraySize));
+            uArrayBase += uMaxArraySize + uArraySeparation;
+        auHeap[0] = 0;
+        auHeap[1] = 1;
+        auHeap[2] = 2;
+        auHeap[3] = 3;
+
+        auHeap[4] = 4;
+        auHeap[5] = 5;
+        auHeap[6] = 6;
+        auHeap[7] = 7;
+
+        auHeap[8] = 8;
+        auHeap[9] = 9;
+        auHeap[10] = 10;
+        auHeap[11] = 11;
+        alert("!address 0x80004000;dd 0x80004000");
+
+        //00000000`80004000  03020100 07060504 0b0a0908 00000000
+        //00000000`80004010  00000000 00000000 00000000 00000000
+        //00000000`80004020  00000000 00000000 00000000 00000000
+        //00000000`80004030  00000000 00000000 00000000 00000000
+        //00000000`80004040  00000000 00000000 00000000 00000000
+        //00000000`80004050  00000000 00000000 00000000 00000000
+        //00000000`80004060  00000000 00000000 00000000 00000000
+        //00000000`80004070  00000000 00000000 00000000 00000000
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
