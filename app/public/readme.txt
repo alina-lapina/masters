@@ -12,3 +12,6 @@ http://localhost:8080/helthcheck.html
 http://localhost:8080/fill_heap_with_bedc0ded.html
 http://localhost:8080/deadbeef_new-content.html
 http://localhost:8080/experiment-with-typed-array-size-and-indexing.html
+http://localhost:8080/experiments-with-typed-array-size-and-indexing_64-bit-chrome.html
+http://localhost:8080/experiments_heap-spraying_64-bit-chrome.html
+http://localhost:8080/user1693593-fill.html
