@@ -28,6 +28,27 @@
     // All done: break into the application using your favorite debugger
     // and see whether [0xDEADBEEF] realy is 0xBADC0DED. In WinDbg, this may help:
     alert("!address 0xDEADBEEF;dd 0xDEADBEEF");
+
+    // v75
+
+    // console:
+    // Allocating 0x30000000 bytes at 0x80004000
+    // Allocating 0x2e8d7ef3 bytes at 0xb0204000 !!! it was actually at 80004000
+
+    // !address          0`80004000        0`ae8dc000        0`2e8d8000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+
+
+    // 00000000`ae8dbeb0  00000000 00000000 00000000 00000000
+    //00000000`ae8dbec0  00000000 00000000 00000000 00000000
+    //00000000`ae8dbed0  00000000 00000000 00000000 00000000
+    //00000000`ae8dbee0  00000000 00000000 00000000 badc0ded
+    //00000000`ae8dbef0  00000000 00000000 00000000 00000000
+    //00000000`ae8dbf00  00000000 00000000 00000000 00000000
+    //00000000`ae8dbf10  00000000 00000000 00000000 00000000
+    //00000000`ae8dbf20  00000000 00000000 00000000 00000000
+    //00000000`ae8dbf30  00000000 00000000 00000000 00000000
+
+
   </script>
 </head>
 </html>
