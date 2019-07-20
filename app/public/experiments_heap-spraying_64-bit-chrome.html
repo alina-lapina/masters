@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Experiment with 64-bit chrome</title>
+            <script>
+                var uMaxArraySize = 0x10000000;
+                var aauHeap = [];
+                    console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes 1");
+                    aauHeap.push(auHeap = new Uint32Array(uMaxArraySize));
+                    auHeap[0] = 0;
+                    auHeap[1] = 1;
+                    auHeap[2] = 2;
+                    auHeap[3] = 3;
+                    auHeap[4] = 4;
+                    auHeap[5] = 5;
+                    auHeap[6] = 6;
+                    auHeap[7] = 7;
+                    auHeap[8] = 8;
+                    auHeap[9] = 9;
+                    auHeap[10] = 10;
+                    auHeap[11] = 11;
+                console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes 2");
+                aauHeap.push(auHeap);
+                console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes 3");
+                aauHeap.push(auHeap);
+                console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes 4");
+                aauHeap.push(auHeap);
+                console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes 5");
+                aauHeap.push(auHeap);
+
+                alert("done spraying: ");
+
+                // !address
+                //   526`da002000      526`da004000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>
+                //   526`da004000      527`1a010000        0`4000c000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+                //+  527`1a010000      5cd`47800000       a6`2d7f0000             MEM_FREE    PAGE_NOACCESS                      Free
+
+                // 0:020> dd 526`da004000
+                // 00000526`da004000  00000000 00000001 00000002 00000003
+                // 00000526`da004010  00000004 00000005 00000006 00000007
+                // 00000526`da004020  00000008 00000009 0000000a 0000000b
+                // 00000526`da004030  00000000 00000000 00000000 00000000
+                // 00000526`da004040  00000000 00000000 00000000 00000000
+                // 00000526`da004050  00000000 00000000 00000000 00000000
+                // 00000526`da004060  00000000 00000000 00000000 00000000
+                // 00000526`da004070  00000000 00000000 00000000 00000000
+
+            </script>
+        </head>
+<body>
+
+</body>
+</html></title>
+</head>
+<body>
+
+</body>
+</html>

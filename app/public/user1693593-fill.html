@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Experiment with 64-bit chrome</title>
+            <script>
+function getFilledFloat32(size, callback) {
+    try {
+        var bigArray = new Float32Array(size),        // allocate buffer
+            blockSize = 2 * 1024*1024,                // 2mb blocks
+            block = blockSize, current = 0;           // init block break and position
+
+        (function fill() {
+            while(current < size && block--)
+                bigArray[current++] = Math.random(); // fill buffer until end or block
+
+            if (current < size) {                     // was block
+                block = blockSize;                    // reset block-size
+                document.querySelector('span').innerHTML += "."; // !! just for demo
+                setTimeout(fill, 7);                  // wait 7ms, continue
+            }
+            else callback(bigArray)                   // we're done, invoke callback
+        })();
+    } catch(err) {
+        alert("Error: " + err.message);
+    }
+}
+
+// --- test code ----------------------------
+
+var isBusy = false;
+function fill() {
+    if (isBusy) return;
+    isBusy = true;
+    var mb = +document.getElementById("rngMem").value;
+    document.querySelector('span').innerHTML = "Filling.";
+    getFilledFloat32(mb * 1024*1024, function(buffer) {
+        alert("Done! First two indexes:\n" + buffer[0] + ",\n" + buffer[1]);
+        isBusy = false;
+    });
+}
+            </script>
+        </head>
+<body>
+<label for="mem">Size in MB:</label>
+<input id="rngMem" onchange="document.querySelector('output').value = this.value" type="range" min=10 max=1000 value=60>
+    <output>60</output>
+    <button onclick="fill()">FILL</button>
+    <br><span></span>
+</body>
+</html></title>
+</head>
+<body>
+
+</body>
+</html>
