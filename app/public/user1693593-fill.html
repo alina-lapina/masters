@@ -38,7 +38,7 @@ function fill() {
     isBusy = true;
     var mb = +document.getElementById("rngMem").value;
     document.querySelector('span').innerHTML = "Filling.";
-    getFilledFloat32(mb * 1024*1024, function(buffer) {
+    getFilledFloat32(mb * 1024*1024, function(buffer) {  // max size to fill is 500 '1024 '1024 = 524288000 (0x1F400000)
         alert("Done! First two indexes:\n" + buffer[0] + ",\n" + buffer[1]);
         isBusy = false;
     });
@@ -47,7 +47,7 @@ function fill() {
         </head>
 <body>
 <label for="mem">Size in MB:</label>
-<input id="rngMem" onchange="document.querySelector('output').value = this.value" type="range" min=10 max=1000 value=60>
+<input id="rngMem" onchange="document.querySelector('output').value = this.value" type="range" min=10 max=5000 value=60>
     <output>60</output>
     <button onclick="fill()">FILL</button>
     <br><span></span>

@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title><!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
             <title>Experiment with 64-bit chrome</title>
             <script>
-                var uMaxArraySize = 0x10000000;
+                var uMaxArraySize = 0x1000000;
                 var aauHeap = [];
-                    console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes 1");
+                for (var i = 1; i<100 ; i++) {
+                    console.log("Allocating 0x" + (uMaxArraySize * 4).toString(16) + " bytes "+i);
                     aauHeap.push(auHeap = new Uint32Array(uMaxArraySize));
                     auHeap[0] = 0;
                     auHeap[1] = 1;
@@ -24,14 +21,7 @@
                     auHeap[9] = 9;
                     auHeap[10] = 10;
                     auHeap[11] = 11;
-                console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes 2");
-                aauHeap.push(auHeap);
-                console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes 3");
-                aauHeap.push(auHeap);
-                console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes 4");
-                aauHeap.push(auHeap);
-                console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes 5");
-                aauHeap.push(auHeap);
+                } // i = 64 is max
 
                 alert("done spraying: ");
 
@@ -53,11 +43,5 @@
             </script>
         </head>
 <body>
-
-</body>
-</html></title>
-</head>
-<body>
-
 </body>
 </html>
