@@ -4,14 +4,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <script>
-        const uMaxArraySize = 0x30000000;
-        const auHeap = new Uint16Array(uMaxArraySize);
+        const uMaxArraySize = 0x10000000;
+        const auHeap = new Uint32Array(uMaxArraySize);
         console.log("Allocating 0x" + uMaxArraySize.toString(16));
         auHeap[0] = 1;
         auHeap[1] = 2;
         auHeap[2] = 3;
         auHeap[3] = 4;
-        alert("!address search for size 6000c000; dd start of range for value 0x00020001 0x00040003");
+        alert("!address search for size 6000c000; dd start of range for value 00000001 00040002 00000003 00000004");
 
         // !address
         // + 382d`2ae00000     382d`2ae02000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
@@ -20,7 +20,7 @@
 
 
         // 0:021> dd 382d`2ae04000
-        // 0000382d`2ae04000  00020001 00040003 00000000 00000000
+        // 0000382d`2ae04000  00000001 00040002 00000003 00000004
         // 0000382d`2ae04010  00000000 00000000 00000000 00000000
         // 0000382d`2ae04020  00000000 00000000 00000000 00000000
         // 0000382d`2ae04030  00000000 00000000 00000000 00000000
