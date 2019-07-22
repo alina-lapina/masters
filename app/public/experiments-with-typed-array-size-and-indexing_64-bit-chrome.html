@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <title>Experiment with 64-bit chrome</title>
     <script>
-        var uArrayBase = 0x80004000,
-            uMaxArraySize = 0x10000000;
+        const uMaxArraySize = 0x30000000;
         var aauHeap = [];
-        console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
-        aauHeap.push(auHeap = new Uint32Array(uMaxArraySize));
+        console.log("Allocating 0x" + uMaxArraySize.toString(16));
+        aauHeap.push(auHeap = new Uint8Array(uMaxArraySize));
         auHeap[0] = 0;
         auHeap[1] = 1;
         auHeap[2] = 2;
@@ -23,7 +22,7 @@
         auHeap[9] = 9;
         auHeap[10] = 10;
         auHeap[11] = 11;
-        alert("!search the heap - size > 0x40000000");
+        alert("!search the heap - size approx. 0x40000000");
 
         // !address
         //   526`da002000      526`da004000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>

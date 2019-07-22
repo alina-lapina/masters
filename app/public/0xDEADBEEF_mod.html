@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <script>
-      var uTargetAddress = 0xDEADBEEF, // The address to allocated
-          uValue = 0xBADC0DED, // The value to store at this address.
-          uArrayBase = window.chrome ? 0x80004000 : 0x80000000,
-          uArraySeparation = window.chrome ? 0x200000 : 0x0,
-          uMaxArraySize = window.chrome ? 0x30000000 : 0x80000000;
-      // Allocation
-	  var aauHeap = [];
-      while (uArrayBase + uMaxArraySize <= uTargetAddress) {
-        console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
-        aauHeap.push(auHeap = new Uint8Array(uMaxArraySize));
-        uArrayBase += uMaxArraySize + uArraySeparation;
-      };
-      var uArraySize = uTargetAddress - uArrayBase + 4,
-          auHeap = new Uint16Array(uArraySize);
-      console.log("Allocating 0x" + uArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <script>
+    var uTargetAddress = 0xDEADBEEF, // The address to allocated
+            uValue = 0xBADC0DED, // The value to store at this address.
+            uArrayBase = window.chrome ? 0x80004000 : 0x80000000,
+            uArraySeparation = window.chrome ? 0x200000 : 0x0,
+            uMaxArraySize = window.chrome ? 0x30000000 : 0x80000000;
+    var aauHeap = [];
+    while (uArrayBase + uMaxArraySize <= uTargetAddress) {
+      console.log("Allocating 0x" + uMaxArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
+      aauHeap.push(auHeap = new Uint8Array(uMaxArraySize));
+      uArrayBase += uMaxArraySize + uArraySeparation;
+    };
+    var uArraySize = uTargetAddress - uArrayBase + 4,
+            auHeap = new Uint32Array(uArraySize/4);
+    console.log("Allocating 0x" + uArraySize.toString(16) + " bytes at 0x" + uArrayBase.toString(16));
+    /*    for (var uOffset = 0; uOffset < 4; uOffset++) {
+          var uByteIndex = uTargetAddress - uArrayBase + uOffset,
+                  uByteValue = (uValue >> (uOffset * 8)) & 0xFF;
+          auHeap[uByteIndex] = uByteValue;
+          console.log("[0x" + uArrayBase.toString(16) + " + 0x" + uByteIndex.toString(16) + "] = " + uByteValue.toString(16));
+        };*/
+    auHeap[auHeap.length-1] = uValue;
+    // All done: break into the application using your favorite debugger
+    // and see whether [0xDEADBEEF] realy is 0xBADC0DED. In WinDbg, this may help:
+    alert("!address 0xDEADBEEF;dd 0xDEADBEEF");
 
-	  // value writing
-      for (var uOffset = 0; uOffset < 4; uOffset++) {
-        var uByteIndex = uTargetAddress - uArrayBase + uOffset,
-            uByteValue = (uValue >> (uOffset * 8)) & 0xFF;
-        auHeap[uByteIndex] = uByteValue;
-        console.log("[0x" + uArrayBase.toString(16) + " + 0x" + uByteIndex.toString(16) + "] = " + uByteValue.toString(16));
-      };
-      // All done: break into the application using your favorite debugger
-      // and see whether [0xDEADBEEF] realy is 0xBADC0DED. In WinDbg, this may help:
-      console.log("!address 0xDEADBEEF;dd 0xDEADBEEF");
-    </script>
-  </head>
+    // v75
+
+    // console:
+    // Allocating 0x30000000 bytes at 0x80004000
+    // Allocating 0x2e8d7ef3 bytes at 0xb0204000 !!! it was actually at 80004000
+
+    // !address          0`80004000        0`ae8dc000        0`2e8d8000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+    //                   0`c0204000        0`f0204000        0`30000000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+
+
+    // 00000000`ae8dbeb0  00000000 00000000 00000000 00000000
+    //00000000`ae8dbec0  00000000 00000000 00000000 00000000
+    //00000000`ae8dbed0  00000000 00000000 00000000 00000000
+    //00000000`ae8dbee0  00000000 00000000 00000000 badc0ded
+    //00000000`ae8dbef0  00000000 00000000 00000000 00000000
+    //00000000`ae8dbf00  00000000 00000000 00000000 00000000
+    //00000000`ae8dbf10  00000000 00000000 00000000 00000000
+    //00000000`ae8dbf20  00000000 00000000 00000000 00000000
+    //00000000`ae8dbf30  00000000 00000000 00000000 00000000
+
+
+  </script>
+</head>
 </html>

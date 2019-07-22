@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <script>
+        const uMaxArraySize = 0x30000000;
+        const auHeap = new Uint8Array(uMaxArraySize);
+        console.log("Allocating 0x" + uMaxArraySize.toString(16));
+        auHeap[0] = 1;
+        auHeap[1] = 2;
+        auHeap[2] = 3;
+        auHeap[3] = 4;
+        alert("!address search for size 3000c000; dd start of range for value 0x04030201");
+
+        // !address
+        // + 382d`2ae00000     382d`2ae02000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+        //   382d`2ae02000     382d`2ae04000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>
+        //   382d`2ae04000     382d`5ae10000        0`3000c000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+
+
+        // 0:021> dd 382d`2ae04000
+        // 0000382d`2ae04000  04030201 00000000 00000000 00000000
+        // 0000382d`2ae04010  00000000 00000000 00000000 00000000
+        // 0000382d`2ae04020  00000000 00000000 00000000 00000000
+        // 0000382d`2ae04030  00000000 00000000 00000000 00000000
+        // 0000382d`2ae04040  00000000 00000000 00000000 00000000
+        // 0000382d`2ae04050  00000000 00000000 00000000 00000000
+        // 0000382d`2ae04060  00000000 00000000 00000000 00000000
+        // 0000382d`2ae04070  00000000 00000000 00000000 00000000
+
+    </script>
+</head>
+</html>
