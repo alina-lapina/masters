@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>Heap spraying of 64-bit Chrome</title>
     <script>
-        const size = 0x7FFFFFFF;
+        const size = 0x30000000;
         for (let i = 1; i > 0; i++) {
-            new Uint8Array(size);
-            console.log("Totally allocated 0x" + (i * (size + 0xc001 + 0x4000)).toString(16) + " bytes. Loop: " + i);
+            new Uint8Array(size); auHeap[0] = 1; auHeap[1] = 2; auHeap[2] = 3; auHeap[3] = 4;
+            console.log("Totally allocated 0x" + (i * (size + 0xc000 + 0x4000)).toString(16) + " bytes. Loop: " + i);
         }
     </script>
 </head>
