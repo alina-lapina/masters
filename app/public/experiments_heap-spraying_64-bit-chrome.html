@@ -7,8 +7,8 @@
         const size = 0x1000000;
         const aauHeap = [];
         for (let i = 1; i > 0; i++) {
-            aauHeap.push(new Uint32Array(size));
-            console.log("Totally allocated 0x" + (i * (size*4 + 0xc000 + 0x4000)).toString(16) + " bytes. Loop: " + i);
+            setTimeout(function(){ aauHeap.push(new Uint8Array(size)); }, 7);
+            console.log("Totally allocated 0x" + (i * (size + 0xc000 + 0x4000)).toString(16) + " bytes. Loop: " + i);
         }
     </script>
 </head>
