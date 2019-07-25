@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <title>Heap spraying of 64-bit Chrome</title>
     <script>
-        const size = 0x1000000;
+        const size = 0x1000;
+        console.log("Start : 0x" + size.toString(16));
         const aauHeap = [];
-        for (let i = 1; i > 0; i++) {
-            setTimeout(function(){ aauHeap.push(new Uint8Array(size)); }, 7);
-            console.log("Totally allocated 0x" + (i * (size + 0xc000 + 0x4000)).toString(16) + " bytes. Loop: " + i);
+        console.log("aauHeap created");
+        for (let i = 1; i < 15000; i++) {
+            setTimeout(function () {
+                console.log("new aauHeap allocated");
+                let auHeap = new Uint8Array(size);
+                aauHeap.push(auHeap);
+                auHeap.forEach(element => {
+                    console.log("filling");
+                    element = 0xAA;
+                    });
+                console.log("Totally allocated 0x" + (i * (size)).toString(16) + " bytes. Loop: " + i);
+            }, 7 );
         }
     </script>
+
 </head>
-<body>Heap spraying</body>
+<body><h1>Heap spraying</h1>
+</body>
 </html>
