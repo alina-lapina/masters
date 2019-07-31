@@ -8,17 +8,17 @@
         console.log("Start : 0x" + size.toString(16));
         const aauHeap = [];
         console.log("aauHeap created");
-        for (let i = 1; i < 15000; i++) {
+        for (let i = 1; i <= 200000; i++) {
             setTimeout(function () {
-                console.log("new aauHeap allocated");
+                console.log("new auHeap allocated");
                 let auHeap = new Uint8Array(size);
                 aauHeap.push(auHeap);
-                auHeap.forEach(element => {
-                    console.log("filling");
-                    element = 0xAA;
-                    });
+                auHeap.forEach((element, index) => {
+                    auHeap[index] = 0xAA;
+                    console.log("filling 0x"+ auHeap[index].toString(16));
+                });
                 console.log("Totally allocated 0x" + (i * (size)).toString(16) + " bytes. Loop: " + i);
-            }, 7 );
+            }, 10 );
         }
     </script>
 
