@@ -1,0 +1,1327 @@
+
+Microsoft (R) Windows Debugger Version 10.0.17763.132 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+*** wait with pending attach
+Symbol search path is: srv*
+Executable search path is: 
+ModLoad: 00007ff6`ec2c0000 00007ff6`ec44a000   C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+ModLoad: 00007ffa`ea8f0000 00007ffa`eaad0000   C:\WINDOWS\SYSTEM32\ntdll.dll
+ModLoad: 00007ffa`e9e90000 00007ffa`e9f3e000   C:\WINDOWS\System32\KERNEL32.DLL
+ModLoad: 00007ffa`e6cf0000 00007ffa`e6f56000   C:\WINDOWS\System32\KERNELBASE.dll
+ModLoad: 00007ffa`e8820000 00007ffa`e9c56000   C:\WINDOWS\System32\SHELL32.dll
+ModLoad: 00007ffa`e9fa0000 00007ffa`ea03d000   C:\WINDOWS\System32\msvcrt.dll
+ModLoad: 00007ffa`e76b0000 00007ffa`e76fa000   C:\WINDOWS\System32\cfgmgr32.dll
+ModLoad: 00007ffa`e7b50000 00007ffa`e7c46000   C:\WINDOWS\System32\ucrtbase.dll
+ModLoad: 00007ffa`e9de0000 00007ffa`e9e86000   C:\WINDOWS\System32\shcore.dll
+ModLoad: 00007ffa`ea740000 00007ffa`ea85f000   C:\WINDOWS\System32\RPCRT4.dll
+ModLoad: 00007ffa`e8260000 00007ffa`e8568000   C:\WINDOWS\System32\combase.dll
+ModLoad: 00007ffa`e7700000 00007ffa`e7772000   C:\WINDOWS\System32\bcryptPrimitives.dll
+ModLoad: 00007ffa`e6f60000 00007ffa`e76a7000   C:\WINDOWS\System32\windows.storage.dll
+ModLoad: 00007ffa`ea040000 00007ffa`ea0e1000   C:\WINDOWS\System32\advapi32.dll
+ModLoad: 00007ffa`ea860000 00007ffa`ea8bb000   C:\WINDOWS\System32\sechost.dll
+ModLoad: 00007ffa`e81a0000 00007ffa`e81f1000   C:\WINDOWS\System32\shlwapi.dll
+ModLoad: 00007ffa`ea0f0000 00007ffa`ea118000   C:\WINDOWS\System32\GDI32.dll
+ModLoad: 00007ffa`e7950000 00007ffa`e7ae3000   C:\WINDOWS\System32\gdi32full.dll
+ModLoad: 00007ffa`e7c50000 00007ffa`e7ceb000   C:\WINDOWS\System32\msvcp_win.dll
+ModLoad: 00007ffa`e7eb0000 00007ffa`e803f000   C:\WINDOWS\System32\USER32.dll
+ModLoad: 00007ffa`e7da0000 00007ffa`e7dc0000   C:\WINDOWS\System32\win32u.dll
+ModLoad: 00007ffa`e6cd0000 00007ffa`e6ce1000   C:\WINDOWS\System32\kernel.appcore.dll
+ModLoad: 00007ffa`e6c40000 00007ffa`e6c8c000   C:\WINDOWS\System32\powrprof.dll
+ModLoad: 00007ffa`e6c90000 00007ffa`e6cab000   C:\WINDOWS\System32\profapi.dll
+ModLoad: 00007ffa`d9b20000 00007ffa`d9be9000   C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll
+ModLoad: 00007ffa`e01e0000 00007ffa`e01ea000   C:\WINDOWS\SYSTEM32\VERSION.dll
+ModLoad: 00007ffa`e2590000 00007ffa`e25b3000   C:\WINDOWS\SYSTEM32\WINMM.dll
+ModLoad: 00007ffa`e6b70000 00007ffa`e6b99000   C:\WINDOWS\SYSTEM32\USERENV.dll
+ModLoad: 00007ffa`e2530000 00007ffa`e255a000   C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+ModLoad: 00007ffa`e6340000 00007ffa`e634b000   C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+ModLoad: 00007ffa`e7e60000 00007ffa`e7e8d000   C:\WINDOWS\System32\IMM32.DLL
+ModLoad: 00007ffa`9bcb0000 00007ffa`a18c2000   C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll
+ModLoad: 0000015b`50880000 0000015b`508ec000   C:\WINDOWS\System32\WS2_32.dll
+ModLoad: 00007ffa`ea570000 00007ffa`ea6b9000   C:\WINDOWS\System32\ole32.dll
+ModLoad: 00007ffa`e80c0000 00007ffa`e8185000   C:\WINDOWS\System32\OLEAUT32.dll
+ModLoad: 00007ffa`e7af0000 00007ffa`e7b48000   C:\WINDOWS\System32\WINTRUST.dll
+ModLoad: 00007ffa`e6cb0000 00007ffa`e6cc2000   C:\WINDOWS\System32\MSASN1.dll
+ModLoad: 00007ffa`e7780000 00007ffa`e794e000   C:\WINDOWS\System32\CRYPT32.dll
+ModLoad: 00007ffa`e8710000 00007ffa`e881a000   C:\WINDOWS\System32\COMDLG32.dll
+ModLoad: 00007ffa`e5f10000 00007ffa`e5f49000   C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+ModLoad: 00007ffa`ddf20000 00007ffa`ddf8e000   C:\WINDOWS\SYSTEM32\OLEACC.dll
+ModLoad: 00007ffa`d4570000 00007ffa`d4776000   C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL
+ModLoad: 00007ffa`e1520000 00007ffa`e1533000   C:\WINDOWS\SYSTEM32\WTSAPI32.dll
+ModLoad: 00007ffa`d2360000 00007ffa`d2670000   C:\WINDOWS\SYSTEM32\DWrite.dll
+ModLoad: 00007ffa`e4ff0000 00007ffa`e509f000   C:\WINDOWS\SYSTEM32\dxgi.dll
+ModLoad: 00007ffa`e02d0000 00007ffa`e0356000   C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+ModLoad: 00007ffa`e67a0000 00007ffa`e6968000   C:\WINDOWS\SYSTEM32\dbghelp.dll
+ModLoad: 00007ffa`dba20000 00007ffa`dbc89000   C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.371_none_15c7d1789365a290\COMCTL32.dll
+ModLoad: 00007ffa`d9ae0000 00007ffa`d9af9000   C:\WINDOWS\SYSTEM32\USP10.dll
+ModLoad: 00007ffa`e4730000 00007ffa`e480e000   C:\WINDOWS\SYSTEM32\WINHTTP.dll
+ModLoad: 00007ffa`d9770000 00007ffa`d993d000   C:\WINDOWS\SYSTEM32\urlmon.dll
+ModLoad: 00007ffa`e7e90000 00007ffa`e7ead000   C:\WINDOWS\System32\imagehlp.dll
+ModLoad: 00007ffa`d8380000 00007ffa`d838c000   C:\WINDOWS\SYSTEM32\Secur32.dll
+ModLoad: 00007ffa`df560000 00007ffa`df57a000   C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+ModLoad: 00007ffa`e80b0000 00007ffa`e80b8000   C:\WINDOWS\System32\NSI.dll
+ModLoad: 00007ffa`e6700000 00007ffa`e6725000   C:\WINDOWS\SYSTEM32\bcrypt.dll
+ModLoad: 00007ffa`d94b0000 00007ffa`d9749000   C:\WINDOWS\SYSTEM32\iertutil.dll
+ModLoad: 00007ffa`e6b40000 00007ffa`e6b70000   C:\WINDOWS\SYSTEM32\SSPICLI.DLL
+(2648.2d98): Break instruction exception - code 80000003 (first chance)
+ntdll!DbgBreakPoint:
+00007ffa`ea993c50 cc              int     3
+0:015> !address 
+
+                                     
+Mapping file section regions...
+Mapping module regions...
+Mapping PEB regions...
+Mapping TEB and stack regions...
+Mapping heap regions...
+Mapping page heap regions...
+Mapping other regions...
+Mapping stack trace database regions...
+Mapping activation context regions...
+
+        BaseAddress      EndAddress+1        RegionSize     Type       State                 Protect             Usage
+--------------------------------------------------------------------------------------------------------------------------
++        0`00000000        0`7ffe0000        0`7ffe0000             MEM_FREE    PAGE_NOACCESS                      Free       
++        0`7ffe0000        0`7ffe1000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READONLY                      Other      [User Shared Data]
++        0`7ffe1000        0`7fff0000        0`0000f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++        0`7fff0000        a`07e00000        9`87e10000             MEM_FREE    PAGE_NOACCESS                      Free       
++        a`07e00000        a`07ebc000        0`000bc000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+         a`07ebc000        a`07ebd000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     PEB        [2648]
+         a`07ebd000        a`07ebf000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~0; 2648.3584]
+         a`07ebf000        a`07ec1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~1; 2648.1574]
+         a`07ec1000        a`07ec3000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~2; 2648.3774]
+         a`07ec3000        a`07ec5000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+         a`07ec5000        a`07ec7000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~3; 2648.1b90]
+         a`07ec7000        a`07ec9000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~4; 2648.990]
+         a`07ec9000        a`07ecb000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~5; 2648.269c]
+         a`07ecb000        a`07ecd000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~6; 2648.3944]
+         a`07ecd000        a`07ecf000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~7; 2648.35a4]
+         a`07ecf000        a`07ed1000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+         a`07ed1000        a`07ed3000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~8; 2648.3c0]
+         a`07ed3000        a`07ed5000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~9; 2648.2070]
+         a`07ed5000        a`07ed7000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~10; 2648.15c4]
+         a`07ed7000        a`07ed9000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~11; 2648.8c0]
+         a`07ed9000        a`07edb000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~12; 2648.2ae4]
+         a`07edb000        a`07ee1000        0`00006000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+         a`07ee1000        a`07ee3000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~13; 2648.33c8]
+         a`07ee3000        a`07eeb000        0`00008000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+         a`07eeb000        a`07eed000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~14; 2648.32e8]
+         a`07eed000        a`07eef000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+         a`07eef000        a`07ef1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     TEB        [~15; 2648.2d98]
+         a`07ef1000        a`08000000        0`0010f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++        a`08000000        a`081f3000        0`001f3000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~0; 2648.3584]
+         a`081f3000        a`081f6000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~0; 2648.3584]
+         a`081f6000        a`08200000        0`0000a000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~0; 2648.3584]
++        a`08200000        a`083fa000        0`001fa000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~1; 2648.1574]
+         a`083fa000        a`083fd000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~1; 2648.1574]
+         a`083fd000        a`08400000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~1; 2648.1574]
++        a`08400000        a`085fa000        0`001fa000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~2; 2648.3774]
+         a`085fa000        a`085fd000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~2; 2648.3774]
+         a`085fd000        a`08600000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~2; 2648.3774]
++        a`08600000        a`08800000        0`00200000             MEM_FREE    PAGE_NOACCESS                      Free       
++        a`08800000        a`089f9000        0`001f9000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~3; 2648.1b90]
+         a`089f9000        a`089fc000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~3; 2648.1b90]
+         a`089fc000        a`08a00000        0`00004000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~3; 2648.1b90]
++        a`08a00000        a`08bf9000        0`001f9000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~4; 2648.990]
+         a`08bf9000        a`08bfc000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~4; 2648.990]
+         a`08bfc000        a`08c00000        0`00004000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~4; 2648.990]
++        a`08c00000        a`08dfc000        0`001fc000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~5; 2648.269c]
+         a`08dfc000        a`08dff000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~5; 2648.269c]
+         a`08dff000        a`08e00000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~5; 2648.269c]
++        a`08e00000        a`08ffa000        0`001fa000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~6; 2648.3944]
+         a`08ffa000        a`08ffd000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~6; 2648.3944]
+         a`08ffd000        a`09000000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~6; 2648.3944]
++        a`09000000        a`091f8000        0`001f8000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~7; 2648.35a4]
+         a`091f8000        a`091fb000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~7; 2648.35a4]
+         a`091fb000        a`09200000        0`00005000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~7; 2648.35a4]
++        a`09200000        a`09400000        0`00200000             MEM_FREE    PAGE_NOACCESS                      Free       
++        a`09400000        a`095fa000        0`001fa000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~8; 2648.3c0]
+         a`095fa000        a`095fd000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~8; 2648.3c0]
+         a`095fd000        a`09600000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~8; 2648.3c0]
++        a`09600000        a`097fa000        0`001fa000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~9; 2648.2070]
+         a`097fa000        a`097fd000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~9; 2648.2070]
+         a`097fd000        a`09800000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~9; 2648.2070]
++        a`09800000        a`099f4000        0`001f4000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~10; 2648.15c4]
+         a`099f4000        a`099f7000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~10; 2648.15c4]
+         a`099f7000        a`09a00000        0`00009000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~10; 2648.15c4]
++        a`09a00000        a`09bfa000        0`001fa000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~11; 2648.8c0]
+         a`09bfa000        a`09bfd000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~11; 2648.8c0]
+         a`09bfd000        a`09c00000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~11; 2648.8c0]
++        a`09c00000        a`09dfa000        0`001fa000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~12; 2648.2ae4]
+         a`09dfa000        a`09dfd000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~12; 2648.2ae4]
+         a`09dfd000        a`09e00000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~12; 2648.2ae4]
++        a`09e00000        a`0a400000        0`00600000             MEM_FREE    PAGE_NOACCESS                      Free       
++        a`0a400000        a`0a5fa000        0`001fa000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~13; 2648.33c8]
+         a`0a5fa000        a`0a5fd000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~13; 2648.33c8]
+         a`0a5fd000        a`0a600000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~13; 2648.33c8]
++        a`0a600000        a`0ae00000        0`00800000             MEM_FREE    PAGE_NOACCESS                      Free       
++        a`0ae00000        a`0affa000        0`001fa000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~14; 2648.32e8]
+         a`0affa000        a`0affd000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~14; 2648.32e8]
+         a`0affd000        a`0b000000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~14; 2648.32e8]
++        a`0b000000        a`0b200000        0`00200000             MEM_FREE    PAGE_NOACCESS                      Free       
++        a`0b200000        a`0b3f9000        0`001f9000 MEM_PRIVATE MEM_RESERVE                                    Stack      [~15; 2648.2d98]
+         a`0b3f9000        a`0b3fc000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE|PAGE_GUARD          Stack      [~15; 2648.2d98]
+         a`0b3fc000        a`0b400000        0`00004000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Stack      [~15; 2648.2d98]
++        a`0b400000      15b`4e4a0000      151`430a0000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`4e4a0000      15b`4e4b0000        0`00010000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 2; Handle: 0000015b4e4a0000; Type: Segment]
++      15b`4e4b0000      15b`4e4b2000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READONLY                      <unknown>  [..........sz.2..]
+       15b`4e4b2000      15b`4e4c0000        0`0000e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`4e4c0000      15b`4e4d9000        0`00019000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      Other      [API Set Map]
++      15b`4e4d9000      15b`4e4e0000        0`00007000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`4e4e0000      15b`4e4e4000        0`00004000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      Other      [System Default Activation Context Data]
++      15b`4e4e4000      15b`4e4f0000        0`0000c000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`4e4f0000      15b`4e4f3000        0`00003000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      Other      [Activation Context Data]
++      15b`4e4f3000      15b`4e500000        0`0000d000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`4e500000      15b`4e501000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [............d...]
++      15b`4e501000      15b`4e510000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`4e510000      15b`4e511000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++      15b`4e511000      15b`4e520000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`4e520000      15b`4e52d000        0`0000d000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       15b`4e52d000      15b`4e52e000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_EXECUTE_READ                  <unknown>  [................]
+       15b`4e52e000      15b`4e530000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`4e530000      15b`4e531000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`4e531000      15b`4e540000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`4e540000      15b`50540000        0`02000000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       15b`50540000      15b`50541000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++      15b`50541000      15b`50550000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50550000      15b`50615000        0`000c5000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Windows\System32\locale.nls"
++      15b`50615000      15b`50620000        0`0000b000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50620000      15b`50622000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 0; Handle: 0000015b50680000; Type: Front End]
+       15b`50622000      15b`50652000        0`00030000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 0; Handle: 0000015b50680000; Type: Front End]
++      15b`50652000      15b`50660000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50660000      15b`50661000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
++      15b`50661000      15b`50670000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50670000      15b`50671000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
++      15b`50671000      15b`50680000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50680000      15b`506cc000        0`0004c000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 0; Handle: 0000015b50680000; Type: Segment]
+       15b`506cc000      15b`5077f000        0`000b3000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 0; Handle: 0000015b50680000; Type: Segment]
+       15b`5077f000      15b`50780000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`50780000      15b`50782000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 3; Handle: 0000015b50830000; Type: Front End]
+       15b`50782000      15b`507b2000        0`00030000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 3; Handle: 0000015b50830000; Type: Front End]
++      15b`507b2000      15b`507c0000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`507c0000      15b`507c2000        0`00002000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Windows\System32\oleaccrc.dll"
++      15b`507c2000      15b`507d0000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`507d0000      15b`507d1000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
++      15b`507d1000      15b`507e0000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`507e0000      15b`507ef000        0`0000f000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 4; Handle: 0000015b507e0000; Type: Segment]
+       15b`507ef000      15b`507f0000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`507f0000      15b`507f2000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 4; Handle: 0000015b507e0000; Type: Front End]
+       15b`507f2000      15b`50822000        0`00030000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 4; Handle: 0000015b507e0000; Type: Front End]
++      15b`50822000      15b`50830000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50830000      15b`5083f000        0`0000f000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`5083f000      15b`50840000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`50840000      15b`50842000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 5; Handle: 0000015b50ce0000; Type: Front End]
+       15b`50842000      15b`50872000        0`00030000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 5; Handle: 0000015b50ce0000; Type: Front End]
++      15b`50872000      15b`50880000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50880000      15b`50881000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WS2_32; "C:\WINDOWS\System32\WS2_32.dll"]
+       15b`50881000      15b`508c5000        0`00044000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [WS2_32; "C:\WINDOWS\System32\WS2_32.dll"]
+       15b`508c5000      15b`508d3000        0`0000e000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WS2_32; "C:\WINDOWS\System32\WS2_32.dll"]
+       15b`508d3000      15b`508d4000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [WS2_32; "C:\WINDOWS\System32\WS2_32.dll"]
+       15b`508d4000      15b`508ec000        0`00018000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WS2_32; "C:\WINDOWS\System32\WS2_32.dll"]
++      15b`508ec000      15b`508f0000        0`00004000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`508f0000      15b`508f7000        0`00007000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 1; Handle: 0000015b508f0000; Type: Segment]
+       15b`508f7000      15b`508ff000        0`00008000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 1; Handle: 0000015b508f0000; Type: Segment]
+       15b`508ff000      15b`50900000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`50900000      15b`50913000        0`00013000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+       15b`50913000      15b`50b00000        0`001ed000 MEM_MAPPED  MEM_RESERVE                                    MappedFile "PageFile"
+       15b`50b00000      15b`50b05000        0`00005000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+       15b`50b05000      15b`50b08000        0`00003000 MEM_MAPPED  MEM_RESERVE                                    MappedFile "PageFile"
++      15b`50b08000      15b`50b10000        0`00008000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50b10000      15b`50b11000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 1; Handle: 0000015b508f0000; Type: Front End]
+       15b`50b11000      15b`50b42000        0`00031000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 1; Handle: 0000015b508f0000; Type: Front End]
++      15b`50b42000      15b`50b50000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50b50000      15b`50b51000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`50b51000      15b`50b60000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50b60000      15b`50b62000        0`00002000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
++      15b`50b62000      15b`50b70000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50b70000      15b`50b79000        0`00009000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 6; Handle: 0000015b50e80000; Type: Front End]
+       15b`50b79000      15b`50ba2000        0`00029000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 6; Handle: 0000015b50e80000; Type: Front End]
++      15b`50ba2000      15b`50bb0000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50bb0000      15b`50caf000        0`000ff000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 6; Handle: 0000015b50e80000; Type: Segment]
+       15b`50caf000      15b`50cb0000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`50cb0000      15b`50cc5000        0`00015000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\natives_blob.bin"
++      15b`50cc5000      15b`50cd0000        0`0000b000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50cd0000      15b`50cd2000        0`00002000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
++      15b`50cd2000      15b`50ce0000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50ce0000      15b`50cef000        0`0000f000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 5; Handle: 0000015b50ce0000; Type: Segment]
+       15b`50cef000      15b`50cf0000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`50cf0000      15b`50d9e000        0`000ae000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\v8_context_snapshot.bin"
++      15b`50d9e000      15b`50da0000        0`00002000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50da0000      15b`50dd6000        0`00036000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\Locales\en-US.pak"
++      15b`50dd6000      15b`50de0000        0`0000a000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50de0000      15b`50e00000        0`00020000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
++      15b`50e00000      15b`50e01000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`50e01000      15b`50e10000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50e10000      15b`50e75000        0`00065000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
++      15b`50e75000      15b`50e80000        0`0000b000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`50e80000      15b`50e8f000        0`0000f000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 6; Handle: 0000015b50e80000; Type: Segment]
+       15b`50e8f000      15b`50e90000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`50e90000      15b`5187e000        0`009ee000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\icudtl.dat"
++      15b`5187e000      15b`51880000        0`00002000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`51880000      15b`51970000        0`000f0000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_100_percent.pak"
++      15b`51970000      15b`51aa6000        0`00136000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_200_percent.pak"
++      15b`51aa6000      15b`51ab0000        0`0000a000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`51ab0000      15b`526dc000        0`00c2c000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\resources.pak"
++      15b`526dc000      15b`526e0000        0`00004000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`526e0000      15b`52a17000        0`00337000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Windows\Globalization\Sorting\SortDefault.nls"
++      15b`52a17000      15b`52a20000        0`00009000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`52a20000      15b`52a32000        0`00012000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`52a32000      15b`52a4c000        0`0001a000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`52a4c000      15b`52a59000        0`0000d000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`52a59000      15b`52a5a000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`52a5a000      15b`52a61000        0`00007000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`52a61000      15b`52a6a000        0`00009000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`52a6a000      15b`52a74000        0`0000a000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`52a74000      15b`52a86000        0`00012000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`52a86000      15b`52a87000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`52a87000      15b`52b1f000        0`00098000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 3; Handle: 0000015b50830000; Type: Segment]
+       15b`52b1f000      15b`52b20000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`52b20000      15b`52d1f000        0`001ff000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 6; Handle: 0000015b50e80000; Type: Segment]
+       15b`52d1f000      15b`52d20000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`52d20000      15b`52f20000        0`00200000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`52f20000      15b`52f40000        0`00020000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
++      15b`52f40000      15b`53040000        0`00100000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`53040000      15b`53050000        0`00010000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`53050000      15b`53060000        0`00010000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`53060000      15b`53441000        0`003e1000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     Heap       [ID: 6; Handle: 0000015b50e80000; Type: Segment]
+       15b`53441000      15b`5345f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    Heap       [ID: 6; Handle: 0000015b50e80000; Type: Segment]
+       15b`5345f000      15b`53460000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`53460000      15b`534f7000        0`00097000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Users\alapin\AppData\Local\Google\Chrome\User Data\Subresource Filter\Indexed Rules\26\9.3\Ruleset Data"
++      15b`534f7000      15b`53500000        0`00009000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`53500000      15b`53510000        0`00010000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`53510000      15b`53520000        0`00010000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`53520000      15b`535c1000        0`000a1000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [v...............]
+       15b`535c1000      15b`53920000        0`0035f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      15b`53920000      15b`53930000        0`00010000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`53930000      15b`53a48000        0`00118000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Windows\Fonts\timesbd.ttf"
++      15b`53a48000      15b`53a50000        0`00008000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`53a50000      15b`53b68000        0`00118000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Windows\Fonts\timesbd.ttf"
++      15b`53b68000      15b`53d70000        0`00208000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`53d70000      15b`53e8c000        0`0011c000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Windows\Fonts\times.ttf"
++      15b`53e8c000      15b`53e90000        0`00004000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`53e90000      15b`53f73000        0`000e3000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Windows\Fonts\segoeui.ttf"
++      15b`53f73000      15b`53f80000        0`0000d000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`53f80000      15b`5405d000        0`000dd000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Windows\Fonts\tahoma.ttf"
++      15b`5405d000      15b`54060000        0`00003000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`54060000      15b`5415b000        0`000fb000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Windows\Fonts\arial.ttf"
++      15b`5415b000      15b`54160000        0`00005000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`54160000      15b`54243000        0`000e3000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "\Device\HarddiskVolume3\Windows\Fonts\segoeui.ttf"
++      15b`54243000      15b`54250000        0`0000d000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`54250000      15b`54251000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`54251000      15b`54260000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++      15b`54260000      15b`54360000        0`00100000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`54360000      15b`54370000        0`00010000 MEM_MAPPED  MEM_COMMIT  PAGE_READWRITE                     MappedFile "PageFile"
++      15b`54370000      4d2`48840000      376`f44d0000             MEM_FREE    PAGE_NOACCESS                      Free       
++      4d2`48840000      4d2`48880000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      4d2`48880000      8d6`0f800000      403`c6f80000             MEM_FREE    PAGE_NOACCESS                      Free       
++      8d6`0f800000      8d6`0f840000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++      8d6`0f840000      8f8`1f880000       22`10040000             MEM_FREE    PAGE_NOACCESS                      Free       
++      8f8`1f880000      8f8`1f8c0000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++      8f8`1f8c0000      a81`09d40000      188`ea480000             MEM_FREE    PAGE_NOACCESS                      Free       
++      a81`09d40000      a81`09d80000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      a81`09d80000      b9a`66440000      119`5c6c0000             MEM_FREE    PAGE_NOACCESS                      Free       
++      b9a`66440000      b9a`66480000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      b9a`66480000      ba9`fadc0000        f`94940000             MEM_FREE    PAGE_NOACCESS                      Free       
++      ba9`fadc0000      ba9`fae00000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      ba9`fae00000      bae`6cc40000        4`71e40000             MEM_FREE    PAGE_NOACCESS                      Free       
++      bae`6cc40000      bae`6cc80000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      bae`6cc80000      c61`82f00000       b3`16280000             MEM_FREE    PAGE_NOACCESS                      Free       
++      c61`82f00000      c61`82f40000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++      c61`82f40000      c7b`55540000       19`d2600000             MEM_FREE    PAGE_NOACCESS                      Free       
++      c7b`55540000      c7b`55580000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      c7b`55580000      db6`a6480000      13b`50f00000             MEM_FREE    PAGE_NOACCESS                      Free       
++      db6`a6480000      db6`a64c0000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      db6`a64c0000      e59`26600000       a2`80140000             MEM_FREE    PAGE_NOACCESS                      Free       
++      e59`26600000      e59`26601000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+       e59`26601000      e59`2661f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+       e59`2661f000      e59`26621000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+       e59`26621000      e59`2663f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       e59`2663f000      e59`26641000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+       e59`26641000      e59`2665f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       e59`2665f000      e59`26661000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+       e59`26661000      e59`2667f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       e59`2667f000      e59`26681000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+       e59`26681000      e59`2669f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       e59`2669f000      e59`266a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+       e59`266a1000      e59`266bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       e59`266bf000      e59`266c1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+       e59`266c1000      e59`266df000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       e59`266df000      e59`266e1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+       e59`266e1000      e59`266ff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       e59`266ff000      e59`26701000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+       e59`26701000      e59`2671f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       e59`2671f000      e59`26721000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+       e59`26721000      e59`2673f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+       e59`2673f000      e59`26740000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++      e59`26740000      f3a`2fa00000       e1`092c0000             MEM_FREE    PAGE_NOACCESS                      Free       
++      f3a`2fa00000      f3a`2fa1b000        0`0001b000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+       f3a`2fa1b000      f3a`2fa40000        0`00025000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++      f3a`2fa40000     114e`27100000      213`f76c0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     114e`27100000     114e`27140000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     114e`27140000     1185`64620000       37`3d4e0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     1185`64620000     1185`64621000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1185`64621000     1185`6463f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      1185`6463f000     1185`64641000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1185`64641000     1185`6465f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1185`6465f000     1185`64661000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1185`64661000     1185`6467f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1185`6467f000     1185`64681000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1185`64681000     1185`6469f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1185`6469f000     1185`646a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1185`646a1000     1185`646bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1185`646bf000     1185`646c1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1185`646c1000     1185`646df000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1185`646df000     1185`646e1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1185`646e1000     1185`646ff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1185`646ff000     1185`64701000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1185`64701000     1185`6471f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1185`6471f000     1185`64721000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1185`64721000     1185`6473f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1185`6473f000     1185`64741000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1185`64741000     1185`6475f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1185`6475f000     1185`64760000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     1185`64760000     11c7`54380000       41`efc20000             MEM_FREE    PAGE_NOACCESS                      Free       
++     11c7`54380000     11c7`543c0000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     11c7`543c0000     11e0`cfc40000       19`7b880000             MEM_FREE    PAGE_NOACCESS                      Free       
++     11e0`cfc40000     11e0`cfc41000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      11e0`cfc41000     11e0`cfc80000        0`0003f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     11e0`cfc80000     1343`42940000      162`72cc0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     1343`42940000     1343`42980000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     1343`42980000     166c`23940000      328`e0fc0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     166c`23940000     166c`23980000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     166c`23980000     1768`45220000       fc`218a0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     1768`45220000     1768`45221000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1768`45221000     1768`4523f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      1768`4523f000     1768`45241000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1768`45241000     1768`4525f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1768`4525f000     1768`45261000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1768`45261000     1768`4527f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1768`4527f000     1768`45281000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1768`45281000     1768`4529f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1768`4529f000     1768`452a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1768`452a1000     1768`452bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1768`452bf000     1768`452c1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1768`452c1000     1768`452df000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1768`452df000     1768`452e1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1768`452e1000     1768`452ff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1768`452ff000     1768`45301000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1768`45301000     1768`4531f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1768`4531f000     1768`45321000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1768`45321000     1768`4533f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1768`4533f000     1768`45341000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1768`45341000     1768`4535f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1768`4535f000     1768`45360000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     1768`45360000     17fd`67c40000       95`228e0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     17fd`67c40000     17fd`67c80000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     17fd`67c80000     18fd`5fb20000       ff`f7ea0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     18fd`5fb20000     18fd`5fb21000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      18fd`5fb21000     18fd`5fb3f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      18fd`5fb3f000     18fd`5fb41000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      18fd`5fb41000     18fd`5fb5f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      18fd`5fb5f000     18fd`5fb61000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      18fd`5fb61000     18fd`5fb7f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      18fd`5fb7f000     18fd`5fb81000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      18fd`5fb81000     18fd`5fb9f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      18fd`5fb9f000     18fd`5fba1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      18fd`5fba1000     18fd`5fbbf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      18fd`5fbbf000     18fd`5fbc1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      18fd`5fbc1000     18fd`5fbdf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      18fd`5fbdf000     18fd`5fbe1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      18fd`5fbe1000     18fd`5fbff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      18fd`5fbff000     18fd`5fc01000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      18fd`5fc01000     18fd`5fc1f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      18fd`5fc1f000     18fd`5fc21000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      18fd`5fc21000     18fd`5fc3f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      18fd`5fc3f000     18fd`5fc41000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      18fd`5fc41000     18fd`5fc5f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      18fd`5fc5f000     18fd`5fc60000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     18fd`5fc60000     192c`f71c0000       2f`97560000             MEM_FREE    PAGE_NOACCESS                      Free       
++     192c`f71c0000     192c`f7200000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     192c`f7200000     1a6b`b5c00000      13e`bea00000             MEM_FREE    PAGE_NOACCESS                      Free       
++     1a6b`b5c00000     1a6b`b5c01000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1a6b`b5c01000     1a6b`b5c02000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [............k...]
+      1a6b`b5c02000     1a6b`b5c04000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1a6b`b5c04000     1a6b`b5c44000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [p...............]
+      1a6b`b5c44000     1a6b`b5e00000        0`001bc000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     1a6b`b5e00000     1d6c`d3260000      301`1d460000             MEM_FREE    PAGE_NOACCESS                      Free       
++     1d6c`d3260000     1d6c`d3261000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1d6c`d3261000     1d6c`d327f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      1d6c`d327f000     1d6c`d3281000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1d6c`d3281000     1d6c`d329f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1d6c`d329f000     1d6c`d32a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1d6c`d32a1000     1d6c`d32bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1d6c`d32bf000     1d6c`d32c1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1d6c`d32c1000     1d6c`d32df000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1d6c`d32df000     1d6c`d32e1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1d6c`d32e1000     1d6c`d32ff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1d6c`d32ff000     1d6c`d3301000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1d6c`d3301000     1d6c`d331f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1d6c`d331f000     1d6c`d3321000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1d6c`d3321000     1d6c`d333f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1d6c`d333f000     1d6c`d3341000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1d6c`d3341000     1d6c`d335f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1d6c`d335f000     1d6c`d3361000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1d6c`d3361000     1d6c`d337f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1d6c`d337f000     1d6c`d3381000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      1d6c`d3381000     1d6c`d339f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      1d6c`d339f000     1d6c`d33a0000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     1d6c`d33a0000     1ed3`22c80000      166`4f8e0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     1ed3`22c80000     1ed3`22cc0000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     1ed3`22cc0000     1f7e`8bdc0000       ab`69100000             MEM_FREE    PAGE_NOACCESS                      Free       
++     1f7e`8bdc0000     1f7e`8bdd0000        0`00010000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [.........Ku.....]
+      1f7e`8bdd0000     1f7e`8bde0000        0`00010000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     1f7e`8bde0000     240d`8c680000      48f`008a0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     240d`8c680000     240d`8c6c0000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     240d`8c6c0000     2440`d9880000       33`4d1c0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     2440`d9880000     2440`d9881000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2440`d9881000     2440`d989f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      2440`d989f000     2440`d98a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2440`d98a1000     2440`d98bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2440`d98bf000     2440`d98c1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2440`d98c1000     2440`d98df000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2440`d98df000     2440`d98e1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2440`d98e1000     2440`d98ff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2440`d98ff000     2440`d9901000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2440`d9901000     2440`d991f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2440`d991f000     2440`d9921000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2440`d9921000     2440`d993f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2440`d993f000     2440`d9941000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2440`d9941000     2440`d995f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2440`d995f000     2440`d9961000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2440`d9961000     2440`d997f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2440`d997f000     2440`d9981000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2440`d9981000     2440`d999f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2440`d999f000     2440`d99a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2440`d99a1000     2440`d99bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2440`d99bf000     2440`d99c0000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     2440`d99c0000     24d3`86680000       92`accc0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     24d3`86680000     24d3`86681000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      24d3`86681000     24d3`8669f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      24d3`8669f000     24d3`866a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      24d3`866a1000     24d3`866bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      24d3`866bf000     24d3`866c1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      24d3`866c1000     24d3`866df000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      24d3`866df000     24d3`866e1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      24d3`866e1000     24d3`866ff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      24d3`866ff000     24d3`86701000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      24d3`86701000     24d3`8671f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      24d3`8671f000     24d3`86721000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      24d3`86721000     24d3`8673f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      24d3`8673f000     24d3`86741000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      24d3`86741000     24d3`8675f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      24d3`8675f000     24d3`86761000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      24d3`86761000     24d3`8677f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      24d3`8677f000     24d3`86781000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      24d3`86781000     24d3`8679f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      24d3`8679f000     24d3`867a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      24d3`867a1000     24d3`867bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      24d3`867bf000     24d3`867c0000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     24d3`867c0000     253e`0ab40000       6a`84380000             MEM_FREE    PAGE_NOACCESS                      Free       
++     253e`0ab40000     253e`0ab81000        0`00041000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      253e`0ab81000     253e`0ab90000        0`0000f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     253e`0ab90000     25ba`44c80000       7c`3a0f0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     25ba`44c80000     25ba`44c81000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      25ba`44c81000     25ba`44c9f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      25ba`44c9f000     25ba`44ca1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      25ba`44ca1000     25ba`44cbf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      25ba`44cbf000     25ba`44cc1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      25ba`44cc1000     25ba`44cdf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      25ba`44cdf000     25ba`44ce1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      25ba`44ce1000     25ba`44cff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      25ba`44cff000     25ba`44d01000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      25ba`44d01000     25ba`44d1f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      25ba`44d1f000     25ba`44d21000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      25ba`44d21000     25ba`44d3f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      25ba`44d3f000     25ba`44d41000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      25ba`44d41000     25ba`44d5f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      25ba`44d5f000     25ba`44d61000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      25ba`44d61000     25ba`44d7f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      25ba`44d7f000     25ba`44d81000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      25ba`44d81000     25ba`44d9f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      25ba`44d9f000     25ba`44da1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      25ba`44da1000     25ba`44dbf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      25ba`44dbf000     25ba`44dc0000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     25ba`44dc0000     2866`7cee0000      2ac`38120000             MEM_FREE    PAGE_NOACCESS                      Free       
++     2866`7cee0000     2866`7cee1000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2866`7cee1000     2866`7ceff000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      2866`7ceff000     2866`7cf01000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2866`7cf01000     2866`7cf1f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2866`7cf1f000     2866`7cf21000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2866`7cf21000     2866`7cf3f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2866`7cf3f000     2866`7cf41000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2866`7cf41000     2866`7cf5f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2866`7cf5f000     2866`7cf61000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2866`7cf61000     2866`7cf7f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2866`7cf7f000     2866`7cf81000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2866`7cf81000     2866`7cf9f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2866`7cf9f000     2866`7cfa1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2866`7cfa1000     2866`7cfbf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2866`7cfbf000     2866`7cfc1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2866`7cfc1000     2866`7cfdf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2866`7cfdf000     2866`7cfe1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2866`7cfe1000     2866`7cfff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2866`7cfff000     2866`7d001000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      2866`7d001000     2866`7d01f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      2866`7d01f000     2866`7d020000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     2866`7d020000     2efd`99b40000      697`1cb20000             MEM_FREE    PAGE_NOACCESS                      Free       
++     2efd`99b40000     2efd`99b80000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     2efd`99b80000     318c`800c0000      28e`e6540000             MEM_FREE    PAGE_NOACCESS                      Free       
++     318c`800c0000     318c`80100000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     318c`80100000     348f`c1540000      303`41440000             MEM_FREE    PAGE_NOACCESS                      Free       
++     348f`c1540000     348f`c1541000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      348f`c1541000     348f`c155f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      348f`c155f000     348f`c1561000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      348f`c1561000     348f`c157f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      348f`c157f000     348f`c1581000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      348f`c1581000     348f`c159f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      348f`c159f000     348f`c15a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      348f`c15a1000     348f`c15bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      348f`c15bf000     348f`c15c1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      348f`c15c1000     348f`c15df000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      348f`c15df000     348f`c15e1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      348f`c15e1000     348f`c15ff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      348f`c15ff000     348f`c1601000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      348f`c1601000     348f`c161f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      348f`c161f000     348f`c1621000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      348f`c1621000     348f`c163f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      348f`c163f000     348f`c1641000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      348f`c1641000     348f`c165f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      348f`c165f000     348f`c1661000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      348f`c1661000     348f`c167f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      348f`c167f000     348f`c1680000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     348f`c1680000     35ca`b4440000      13a`f2dc0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     35ca`b4440000     35ca`b4480000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     35ca`b4480000     36b8`77cc0000       ed`c3840000             MEM_FREE    PAGE_NOACCESS                      Free       
++     36b8`77cc0000     36b8`77d00000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     36b8`77d00000     3f72`09000000      8b9`91300000             MEM_FREE    PAGE_NOACCESS                      Free       
++     3f72`09000000     3f72`09040000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     3f72`09040000     42e9`9c700000      377`936c0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     42e9`9c700000     42e9`9c740000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     42e9`9c740000     45ab`afa80000      2c2`13340000             MEM_FREE    PAGE_NOACCESS                      Free       
++     45ab`afa80000     45ab`afac0000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     45ab`afac0000     4747`f1b00000      19c`42040000             MEM_FREE    PAGE_NOACCESS                      Free       
++     4747`f1b00000     4747`f1b40000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     4747`f1b40000     47ca`5a740000       82`68c00000             MEM_FREE    PAGE_NOACCESS                      Free       
++     47ca`5a740000     47ca`5a780000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     47ca`5a780000     4a10`51540000      245`f6dc0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     4a10`51540000     4a10`51580000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     4a10`51580000     4a8e`d1e40000       7e`808c0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     4a8e`d1e40000     4a8e`d1e80000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     4a8e`d1e80000     4d20`34840000      291`629c0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     4d20`34840000     4d20`34880000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     4d20`34880000     4d4f`29280000       2e`f4a00000             MEM_FREE    PAGE_NOACCESS                      Free       
++     4d4f`29280000     4d4f`292c0000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     4d4f`292c0000     5023`45260000      2d4`1bfa0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     5023`45260000     5023`45261000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      5023`45261000     5023`4527f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      5023`4527f000     5023`45281000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      5023`45281000     5023`4529f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      5023`4529f000     5023`452a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      5023`452a1000     5023`452bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      5023`452bf000     5023`452c1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      5023`452c1000     5023`452df000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      5023`452df000     5023`452e1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      5023`452e1000     5023`452ff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      5023`452ff000     5023`45301000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      5023`45301000     5023`4531f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      5023`4531f000     5023`45321000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      5023`45321000     5023`4533f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      5023`4533f000     5023`45341000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      5023`45341000     5023`4535f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      5023`4535f000     5023`45361000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      5023`45361000     5023`4537f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      5023`4537f000     5023`45381000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      5023`45381000     5023`4539f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      5023`4539f000     5023`453a0000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     5023`453a0000     55c8`2ebc0000      5a4`e9820000             MEM_FREE    PAGE_NOACCESS                      Free       
++     55c8`2ebc0000     55c8`2ec00000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     55c8`2ec00000     5b98`2e1c0000      5cf`ff5c0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     5b98`2e1c0000     5b98`2e200000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     5b98`2e200000     60a7`e0700000      50f`b2500000             MEM_FREE    PAGE_NOACCESS                      Free       
++     60a7`e0700000     60a7`e0740000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     60a7`e0740000     6149`c1240000       a1`e0b00000             MEM_FREE    PAGE_NOACCESS                      Free       
++     6149`c1240000     6149`c1280000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     6149`c1280000     62d2`6e280000      188`ad000000             MEM_FREE    PAGE_NOACCESS                      Free       
++     62d2`6e280000     62d2`6e2c0000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     62d2`6e2c0000     6438`2ff40000      165`c1c80000             MEM_FREE    PAGE_NOACCESS                      Free       
++     6438`2ff40000     6438`2ff80000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     6438`2ff80000     661d`085c0000      1e4`d8640000             MEM_FREE    PAGE_NOACCESS                      Free       
++     661d`085c0000     661d`08600000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     661d`08600000     675b`fbf00000      13e`f3900000             MEM_FREE    PAGE_NOACCESS                      Free       
++     675b`fbf00000     675b`fbf40000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
++     675b`fbf40000     6780`aa800000       24`ae8c0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     6780`aa800000     6780`aa801000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6780`aa801000     6780`aa802000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [.A...........g..]
+      6780`aa802000     6780`aa804000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6780`aa804000     6780`aa8cc000        0`000c8000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      6780`aa8cc000     6780`aaa00000        0`00134000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     6780`aaa00000     6793`89180000       12`de780000             MEM_FREE    PAGE_NOACCESS                      Free       
++     6793`89180000     6793`89181000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      6793`89181000     6793`8919f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      6793`8919f000     6793`891a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      6793`891a1000     6793`891bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6793`891bf000     6793`891c1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      6793`891c1000     6793`891df000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6793`891df000     6793`891e1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      6793`891e1000     6793`891ff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6793`891ff000     6793`89201000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      6793`89201000     6793`8921f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6793`8921f000     6793`89221000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      6793`89221000     6793`8923f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6793`8923f000     6793`89241000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      6793`89241000     6793`8925f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6793`8925f000     6793`89261000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      6793`89261000     6793`8927f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6793`8927f000     6793`89281000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      6793`89281000     6793`8929f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6793`8929f000     6793`892a1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      6793`892a1000     6793`892bf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      6793`892bf000     6793`892c0000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     6793`892c0000     6834`3c6f0000       a0`b3430000             MEM_FREE    PAGE_NOACCESS                      Free       
++     6834`3c6f0000     6834`3c6f8000        0`00008000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [........X.......]
+      6834`3c6f8000     6834`3c700000        0`00008000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     6834`3c700000     6eb7`0f980000      682`d3280000             MEM_FREE    PAGE_NOACCESS                      Free       
++     6eb7`0f980000     6eb7`0f9c0000        0`00040000 MEM_PRIVATE MEM_COMMIT  PAGE_READONLY                      <unknown>  [................]
++     6eb7`0f9c0000     7232`6de00000      37b`5e440000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7232`6de00000     7232`6de01000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6de01000     7232`6de02000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [0h.........m2r..]
+      7232`6de02000     7232`6de04000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6de04000     7232`6de50000        0`0004c000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6de50000     7232`6de54000        0`00004000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6de54000     7232`6debc000        0`00068000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6debc000     7232`6dec7000        0`0000b000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6dec7000     7232`6df18000        0`00051000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6df18000     7232`6df25000        0`0000d000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6df25000     7232`6df28000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6df28000     7232`6df2f000        0`00007000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6df2f000     7232`6df30000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6df30000     7232`6df37000        0`00007000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6df37000     7232`6df38000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6df38000     7232`6df47000        0`0000f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6df47000     7232`6df48000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6df48000     7232`6df55000        0`0000d000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6df55000     7232`6df6c000        0`00017000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6df6c000     7232`6df7b000        0`0000f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6df7b000     7232`6df7c000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6df7c000     7232`6df8b000        0`0000f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6df8b000     7232`6dff8000        0`0006d000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6dff8000     7232`6e000000        0`00008000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     7232`6e000000     7232`6e001000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6e001000     7232`6e002000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [0h..............]
+      7232`6e002000     7232`6e004000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6e004000     7232`6e020000        0`0001c000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..r2n.C....b....]
+      7232`6e020000     7232`6e02f000        0`0000f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6e02f000     7232`6e080000        0`00051000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6e080000     7232`6e093000        0`00013000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6e093000     7232`6e0a4000        0`00011000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6e0a4000     7232`6e0af000        0`0000b000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6e0af000     7232`6e0b0000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6e0b0000     7232`6e0b9000        0`00009000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6e0b9000     7232`6e0bc000        0`00003000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6e0bc000     7232`6e0c7000        0`0000b000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6e0c7000     7232`6e0e0000        0`00019000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6e0e0000     7232`6e0e7000        0`00007000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7232`6e0e7000     7232`6e0e8000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7232`6e0e8000     7232`6e200000        0`00118000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     7232`6e200000     726f`4bd40000       3c`ddb40000             MEM_FREE    PAGE_NOACCESS                      Free       
++     726f`4bd40000     726f`4bd80000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     726f`4bd80000     73d0`3ee60000      160`f30e0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     73d0`3ee60000     73d0`3ee61000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      73d0`3ee61000     73d0`3ee7f000        0`0001e000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.......J.....]
+      73d0`3ee7f000     73d0`3ee81000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      73d0`3ee81000     73d0`3ee9f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      73d0`3ee9f000     73d0`3eea1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      73d0`3eea1000     73d0`3eebf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      73d0`3eebf000     73d0`3eec1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      73d0`3eec1000     73d0`3eedf000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      73d0`3eedf000     73d0`3eee1000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      73d0`3eee1000     73d0`3eeff000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      73d0`3eeff000     73d0`3ef01000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      73d0`3ef01000     73d0`3ef1f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      73d0`3ef1f000     73d0`3ef21000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      73d0`3ef21000     73d0`3ef3f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      73d0`3ef3f000     73d0`3ef41000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      73d0`3ef41000     73d0`3ef5f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      73d0`3ef5f000     73d0`3ef61000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      73d0`3ef61000     73d0`3ef7f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      73d0`3ef7f000     73d0`3ef81000        0`00002000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
+      73d0`3ef81000     73d0`3ef9f000        0`0001e000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      73d0`3ef9f000     73d0`3efa0000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_NOACCESS                      <unknown>  
++     73d0`3efa0000     753b`0eb80000      16a`cfbe0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     753b`0eb80000     753b`0ebc0000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     753b`0ebc0000     75fc`efc00000       c1`e1040000             MEM_FREE    PAGE_NOACCESS                      Free       
++     75fc`efc00000     75fc`efc01000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      75fc`efc01000     75fc`efc02000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [.............u..]
+      75fc`efc02000     75fc`efc04000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      75fc`efc04000     75fc`efd64000        0`00160000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u.....0..P....]
+      75fc`efd64000     75fc`efd73000        0`0000f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      75fc`efd73000     75fc`efdc0000        0`0004d000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      75fc`efdc0000     75fc`efdcf000        0`0000f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      75fc`efdcf000     75fc`efde0000        0`00011000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      75fc`efde0000     75fc`efdf3000        0`00013000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      75fc`efdf3000     75fc`efdf4000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      75fc`efdf4000     75fc`efe00000        0`0000c000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     75fc`efe00000     75fc`efe01000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      75fc`efe01000     75fc`efe02000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      75fc`efe02000     75fc`efe04000        0`00002000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      75fc`efe04000     75fc`efe10000        0`0000c000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [..u...d.........]
+      75fc`efe10000     75fc`f0000000        0`001f0000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     75fc`f0000000     7a10`23d80000      413`33d80000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7a10`23d80000     7a10`23d81000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_EXECUTE_READ                  <unknown>  [................]
+      7a10`23d81000     7a10`23dc0000        0`0003f000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7a10`23dc0000     7a10`23dc1000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7a10`23dc1000     7a10`23dc2000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7a10`23dc2000     7a10`23de7000        0`00025000 MEM_PRIVATE MEM_COMMIT  PAGE_EXECUTE_READ                  <unknown>  [.....n.......n..]
+      7a10`23de7000     7a10`23e40000        0`00059000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7a10`23e40000     7a10`23e41000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7a10`23e41000     7a10`23e42000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7a10`23e42000     7a10`23e43000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_EXECUTE_READ                  <unknown>  [.....n....h.....]
+      7a10`23e43000     7a10`23e80000        0`0003d000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7a10`23e80000     7a10`23e81000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7a10`23e81000     7a10`23e82000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7a10`23e82000     7a10`23e83000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_EXECUTE_READ                  <unknown>  [.....n....h.....]
+      7a10`23e83000     7a10`23ec0000        0`0003d000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7a10`23ec0000     7a10`23ec1000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_READWRITE                     <unknown>  [................]
+      7a10`23ec1000     7a10`23ec2000        0`00001000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
+      7a10`23ec2000     7a10`23ec3000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_EXECUTE_READ                  <unknown>  [.....n..I.h.....]
+      7a10`23ec3000     7a10`2bd80000        0`07ebd000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     7a10`2bd80000     7a9c`9e180000       8c`72400000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7a9c`9e180000     7a9c`9e1c0000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     7a9c`9e1c0000     7b00`952c0000       63`f7100000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7b00`952c0000     7b00`95300000        0`00040000 MEM_PRIVATE MEM_RESERVE                                    <unknown>  
++     7b00`95300000     7df5`ff5d0000      2f5`6a2d0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7df5`ff5d0000     7df6`00b48000        0`01578000 MEM_MAPPED  MEM_RESERVE                                    MappedFile "PageFile"
+      7df6`00b48000     7df6`00bf4000        0`000ac000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7df6`00bf4000     7dfb`6c964000        5`6bd70000 MEM_MAPPED  MEM_RESERVE                                    MappedFile "PageFile"
+      7dfb`6c964000     7dfb`6c965000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7dfb`6c965000     7dfb`6c9f2000        0`0008d000 MEM_MAPPED  MEM_RESERVE                                    MappedFile "PageFile"
+      7dfb`6c9f2000     7dfb`6c9f4000        0`00002000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7dfb`6c9f4000     7fde`3fec6000      1e2`d34d2000 MEM_MAPPED  MEM_RESERVE                                    MappedFile "PageFile"
+      7fde`3fec6000     7fde`3fecc000        0`00006000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7fde`3fecc000     7ff5`db0db000       17`9b20f000 MEM_MAPPED  MEM_RESERVE                                    MappedFile "PageFile"
+      7ff5`db0db000     7ff5`db0e2000        0`00007000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`db0e2000     7ff5`e9c00000        0`0eb1e000 MEM_MAPPED  MEM_RESERVE                                    MappedFile "PageFile"
+      7ff5`e9c00000     7ff5`e9cc2000        0`000c2000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`e9cc2000     7ff5`e9e34000        0`00172000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`e9e34000     7ff5`eaa5d000        0`00c29000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaa5d000     7ff5`eaa6a000        0`0000d000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eaa6a000     7ff5`eaae5000        0`0007b000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaae5000     7ff5`eaaee000        0`00009000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eaaee000     7ff5`eabde000        0`000f0000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eabde000     7ff5`eabdf000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eabdf000     7ff5`eac22000        0`00043000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eac22000     7ff5`eac35000        0`00013000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eac35000     7ff5`eac3b000        0`00006000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eac3b000     7ff5`eac40000        0`00005000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eac40000     7ff5`eacb8000        0`00078000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eacb8000     7ff5`eacc3000        0`0000b000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eacc3000     7ff5`ead4c000        0`00089000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`ead4c000     7ff5`ead4f000        0`00003000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`ead4f000     7ff5`eada5000        0`00056000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eada5000     7ff5`eada6000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eada6000     7ff5`eadd7000        0`00031000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eadd7000     7ff5`eadd8000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eadd8000     7ff5`eaddb000        0`00003000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaddb000     7ff5`eadde000        0`00003000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eadde000     7ff5`eae24000        0`00046000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eae24000     7ff5`eae25000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eae25000     7ff5`eae64000        0`0003f000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eae64000     7ff5`eae67000        0`00003000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eae67000     7ff5`eaeec000        0`00085000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaeec000     7ff5`eaef1000        0`00005000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eaef1000     7ff5`eaf0f000        0`0001e000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaf0f000     7ff5`eaf13000        0`00004000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eaf13000     7ff5`eaf4c000        0`00039000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaf4c000     7ff5`eaf4e000        0`00002000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eaf4e000     7ff5`eaf5d000        0`0000f000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaf5d000     7ff5`eaf5e000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eaf5e000     7ff5`eaf6c000        0`0000e000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaf6c000     7ff5`eaf6d000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eaf6d000     7ff5`eaf6e000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaf6e000     7ff5`eaf76000        0`00008000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eaf76000     7ff5`eaf7d000        0`00007000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaf7d000     7ff5`eaf7f000        0`00002000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eaf7f000     7ff5`eaf81000        0`00002000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eaf81000     7ff5`eafc4000        0`00043000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eafc4000     7ff5`eafc6000        0`00002000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eafc6000     7ff5`eafc8000        0`00002000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eafc8000     7ff5`eafc9000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eafc9000     7ff5`eafd8000        0`0000f000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eafd8000     7ff5`eafd9000        0`00001000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eafd9000     7ff5`eafe6000        0`0000d000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eafe6000     7ff5`eafec000        0`00006000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eafec000     7ff5`eb042000        0`00056000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eb042000     7ff5`eb047000        0`00005000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eb047000     7ff5`eb055000        0`0000e000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eb055000     7ff5`eb065000        0`00010000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eb065000     7ff5`eb06b000        0`00006000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eb06b000     7ff5`eb06d000        0`00002000 MEM_MAPPED  MEM_COMMIT  PAGE_NOACCESS                      MappedFile "PageFile"
+      7ff5`eb06d000     7ff5`eb07c000        0`0000f000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      MappedFile "PageFile"
+      7ff5`eb07c000     7ff5`ff5d0000        0`14554000 MEM_MAPPED  MEM_RESERVE                                    MappedFile "PageFile"
++     7ff5`ff5d0000     7ff6`ebd30000        0`ec760000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ff6`ebd30000     7ff6`ebd35000        0`00005000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      Other      [Read Only Shared Memory]
+      7ff6`ebd35000     7ff6`ebe30000        0`000fb000 MEM_MAPPED  MEM_RESERVE                                    MappedFile "PageFile"
++     7ff6`ebe30000     7ff6`ebe53000        0`00023000 MEM_MAPPED  MEM_COMMIT  PAGE_READONLY                      Other      [NLS Tables]
++     7ff6`ebe53000     7ff6`ec2c0000        0`0046d000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ff6`ec2c0000     7ff6`ec2c1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec2c1000     7ff6`ec3b9000        0`000f8000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec3b9000     7ff6`ec3ea000        0`00031000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec3ea000     7ff6`ec3eb000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec3eb000     7ff6`ec3ef000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec3ef000     7ff6`ec3f0000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec3f0000     7ff6`ec3f2000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec3f2000     7ff6`ec3f3000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec3f3000     7ff6`ec3f6000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec3f6000     7ff6`ec403000        0`0000d000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec403000     7ff6`ec404000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_NOACCESS                      Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec404000     7ff6`ec406000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+      7ff6`ec406000     7ff6`ec44a000        0`00044000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome; "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
++     7ff6`ec44a000     7ffa`9bcb0000        3`af866000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`9bcb0000     7ffa`9bcb1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`9bcb1000     7ffa`a0521000        0`04870000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a0521000     7ffa`a11e2000        0`00cc1000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11e2000     7ffa`a11e5000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11e5000     7ffa`a11e9000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11e9000     7ffa`a11ee000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11ee000     7ffa`a11f1000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11f1000     7ffa`a11f3000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11f3000     7ffa`a11f4000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11f4000     7ffa`a11f7000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11f7000     7ffa`a11f8000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11f8000     7ffa`a11f9000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11f9000     7ffa`a11fc000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11fc000     7ffa`a11fe000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a11fe000     7ffa`a1201000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1201000     7ffa`a1202000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1202000     7ffa`a1203000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1203000     7ffa`a1205000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1205000     7ffa`a1207000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1207000     7ffa`a1208000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1208000     7ffa`a121f000        0`00017000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a121f000     7ffa`a1222000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1222000     7ffa`a1224000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1224000     7ffa`a1225000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1225000     7ffa`a1227000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1227000     7ffa`a122b000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a122b000     7ffa`a122c000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a122c000     7ffa`a123d000        0`00011000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a123d000     7ffa`a125c000        0`0001f000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a125c000     7ffa`a125e000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a125e000     7ffa`a1264000        0`00006000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1264000     7ffa`a126c000        0`00008000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a126c000     7ffa`a126d000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a126d000     7ffa`a126f000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a126f000     7ffa`a1271000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1271000     7ffa`a1283000        0`00012000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1283000     7ffa`a12c4000        0`00041000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a12c4000     7ffa`a12c5000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a12c5000     7ffa`a1308000        0`00043000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1308000     7ffa`a130c000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a130c000     7ffa`a130d000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a130d000     7ffa`a1311000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1311000     7ffa`a1312000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1312000     7ffa`a1317000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1317000     7ffa`a1318000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1318000     7ffa`a1319000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1319000     7ffa`a1362000        0`00049000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1362000     7ffa`a1363000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1363000     7ffa`a1366000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1366000     7ffa`a136c000        0`00006000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a136c000     7ffa`a13fb000        0`0008f000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a13fb000     7ffa`a13fc000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a13fc000     7ffa`a1402000        0`00006000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1402000     7ffa`a1404000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1404000     7ffa`a1405000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1405000     7ffa`a1406000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1406000     7ffa`a140a000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a140a000     7ffa`a140c000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a140c000     7ffa`a140d000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a140d000     7ffa`a140f000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a140f000     7ffa`a1806000        0`003f7000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1806000     7ffa`a1807000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_NOACCESS                      Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1807000     7ffa`a1809000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a1809000     7ffa`a180a000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a180a000     7ffa`a180b000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
+      7ffa`a180b000     7ffa`a18c2000        0`000b7000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome_child; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_child.dll"]
++     7ffa`a18c2000     7ffa`d2360000        0`30a9e000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`d2360000     7ffa`d2361000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [DWrite; "C:\WINDOWS\SYSTEM32\DWrite.dll"]
+      7ffa`d2361000     7ffa`d2523000        0`001c2000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [DWrite; "C:\WINDOWS\SYSTEM32\DWrite.dll"]
+      7ffa`d2523000     7ffa`d260a000        0`000e7000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [DWrite; "C:\WINDOWS\SYSTEM32\DWrite.dll"]
+      7ffa`d260a000     7ffa`d2613000        0`00009000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [DWrite; "C:\WINDOWS\SYSTEM32\DWrite.dll"]
+      7ffa`d2613000     7ffa`d2670000        0`0005d000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [DWrite; "C:\WINDOWS\SYSTEM32\DWrite.dll"]
++     7ffa`d2670000     7ffa`d4570000        0`01f00000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`d4570000     7ffa`d4571000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [UIAutomationCore; "C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL"]
+      7ffa`d4571000     7ffa`d46a1000        0`00130000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [UIAutomationCore; "C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL"]
+      7ffa`d46a1000     7ffa`d4722000        0`00081000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [UIAutomationCore; "C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL"]
+      7ffa`d4722000     7ffa`d4728000        0`00006000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [UIAutomationCore; "C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL"]
+      7ffa`d4728000     7ffa`d4776000        0`0004e000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [UIAutomationCore; "C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL"]
++     7ffa`d4776000     7ffa`d8380000        0`03c0a000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`d8380000     7ffa`d8381000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [Secur32; "C:\WINDOWS\SYSTEM32\Secur32.dll"]
+      7ffa`d8381000     7ffa`d8384000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [Secur32; "C:\WINDOWS\SYSTEM32\Secur32.dll"]
+      7ffa`d8384000     7ffa`d8387000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [Secur32; "C:\WINDOWS\SYSTEM32\Secur32.dll"]
+      7ffa`d8387000     7ffa`d8388000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [Secur32; "C:\WINDOWS\SYSTEM32\Secur32.dll"]
+      7ffa`d8388000     7ffa`d838c000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [Secur32; "C:\WINDOWS\SYSTEM32\Secur32.dll"]
++     7ffa`d838c000     7ffa`d94b0000        0`01124000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`d94b0000     7ffa`d94b1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
+      7ffa`d94b1000     7ffa`d952e000        0`0007d000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
+      7ffa`d952e000     7ffa`d971b000        0`001ed000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
+      7ffa`d971b000     7ffa`d971f000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
+      7ffa`d971f000     7ffa`d9722000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
+      7ffa`d9722000     7ffa`d9723000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
+      7ffa`d9723000     7ffa`d9725000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
+      7ffa`d9725000     7ffa`d9726000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
+      7ffa`d9726000     7ffa`d972f000        0`00009000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
+      7ffa`d972f000     7ffa`d9730000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
+      7ffa`d9730000     7ffa`d9749000        0`00019000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [iertutil; "C:\WINDOWS\SYSTEM32\iertutil.dll"]
++     7ffa`d9749000     7ffa`d9770000        0`00027000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`d9770000     7ffa`d9771000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [urlmon; "C:\WINDOWS\SYSTEM32\urlmon.dll"]
+      7ffa`d9771000     7ffa`d988d000        0`0011c000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [urlmon; "C:\WINDOWS\SYSTEM32\urlmon.dll"]
+      7ffa`d988d000     7ffa`d98ca000        0`0003d000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [urlmon; "C:\WINDOWS\SYSTEM32\urlmon.dll"]
+      7ffa`d98ca000     7ffa`d98cf000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [urlmon; "C:\WINDOWS\SYSTEM32\urlmon.dll"]
+      7ffa`d98cf000     7ffa`d98d7000        0`00008000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [urlmon; "C:\WINDOWS\SYSTEM32\urlmon.dll"]
+      7ffa`d98d7000     7ffa`d98e7000        0`00010000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [urlmon; "C:\WINDOWS\SYSTEM32\urlmon.dll"]
+      7ffa`d98e7000     7ffa`d98e8000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [urlmon; "C:\WINDOWS\SYSTEM32\urlmon.dll"]
+      7ffa`d98e8000     7ffa`d993d000        0`00055000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [urlmon; "C:\WINDOWS\SYSTEM32\urlmon.dll"]
++     7ffa`d993d000     7ffa`d9ae0000        0`001a3000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`d9ae0000     7ffa`d9ae1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [USP10; "C:\WINDOWS\SYSTEM32\USP10.dll"]
+      7ffa`d9ae1000     7ffa`d9ae2000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [USP10; "C:\WINDOWS\SYSTEM32\USP10.dll"]
+      7ffa`d9ae2000     7ffa`d9ae3000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [USP10; "C:\WINDOWS\SYSTEM32\USP10.dll"]
+      7ffa`d9ae3000     7ffa`d9ae4000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [USP10; "C:\WINDOWS\SYSTEM32\USP10.dll"]
+      7ffa`d9ae4000     7ffa`d9af9000        0`00015000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [USP10; "C:\WINDOWS\SYSTEM32\USP10.dll"]
++     7ffa`d9af9000     7ffa`d9b20000        0`00027000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`d9b20000     7ffa`d9b21000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
+      7ffa`d9b21000     7ffa`d9baa000        0`00089000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
+      7ffa`d9baa000     7ffa`d9bce000        0`00024000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
+      7ffa`d9bce000     7ffa`d9bcf000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
+      7ffa`d9bcf000     7ffa`d9bd5000        0`00006000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
+      7ffa`d9bd5000     7ffa`d9bd6000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
+      7ffa`d9bd6000     7ffa`d9bd8000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
+      7ffa`d9bd8000     7ffa`d9be3000        0`0000b000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
+      7ffa`d9be3000     7ffa`d9be5000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
+      7ffa`d9be5000     7ffa`d9be6000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
+      7ffa`d9be6000     7ffa`d9be9000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [chrome_elf; "C:\Program Files (x86)\Google\Chrome\Application\75.0.3770.142\chrome_elf.dll"]
++     7ffa`d9be9000     7ffa`dba20000        0`01e37000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`dba20000     7ffa`dba21000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [COMCTL32; "C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.371_none_15c7d1789365a290\COMCTL32.dll"]
+      7ffa`dba21000     7ffa`dbbd9000        0`001b8000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [COMCTL32; "C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.371_none_15c7d1789365a290\COMCTL32.dll"]
+      7ffa`dbbd9000     7ffa`dbc1e000        0`00045000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [COMCTL32; "C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.371_none_15c7d1789365a290\COMCTL32.dll"]
+      7ffa`dbc1e000     7ffa`dbc20000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [COMCTL32; "C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.371_none_15c7d1789365a290\COMCTL32.dll"]
+      7ffa`dbc20000     7ffa`dbc22000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [COMCTL32; "C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.371_none_15c7d1789365a290\COMCTL32.dll"]
+      7ffa`dbc22000     7ffa`dbc89000        0`00067000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [COMCTL32; "C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.371_none_15c7d1789365a290\COMCTL32.dll"]
++     7ffa`dbc89000     7ffa`ddf20000        0`02297000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`ddf20000     7ffa`ddf21000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [OLEACC; "C:\WINDOWS\SYSTEM32\OLEACC.dll"]
+      7ffa`ddf21000     7ffa`ddf64000        0`00043000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [OLEACC; "C:\WINDOWS\SYSTEM32\OLEACC.dll"]
+      7ffa`ddf64000     7ffa`ddf7e000        0`0001a000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [OLEACC; "C:\WINDOWS\SYSTEM32\OLEACC.dll"]
+      7ffa`ddf7e000     7ffa`ddf7f000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [OLEACC; "C:\WINDOWS\SYSTEM32\OLEACC.dll"]
+      7ffa`ddf7f000     7ffa`ddf80000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [OLEACC; "C:\WINDOWS\SYSTEM32\OLEACC.dll"]
+      7ffa`ddf80000     7ffa`ddf8e000        0`0000e000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [OLEACC; "C:\WINDOWS\SYSTEM32\OLEACC.dll"]
++     7ffa`ddf8e000     7ffa`df560000        0`015d2000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`df560000     7ffa`df561000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [dhcpcsvc; "C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL"]
+      7ffa`df561000     7ffa`df56d000        0`0000c000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [dhcpcsvc; "C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL"]
+      7ffa`df56d000     7ffa`df575000        0`00008000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [dhcpcsvc; "C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL"]
+      7ffa`df575000     7ffa`df576000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [dhcpcsvc; "C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL"]
+      7ffa`df576000     7ffa`df57a000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [dhcpcsvc; "C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL"]
++     7ffa`df57a000     7ffa`e01e0000        0`00c66000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e01e0000     7ffa`e01e1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [VERSION; "C:\WINDOWS\SYSTEM32\VERSION.dll"]
+      7ffa`e01e1000     7ffa`e01e4000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [VERSION; "C:\WINDOWS\SYSTEM32\VERSION.dll"]
+      7ffa`e01e4000     7ffa`e01e6000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [VERSION; "C:\WINDOWS\SYSTEM32\VERSION.dll"]
+      7ffa`e01e6000     7ffa`e01e7000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [VERSION; "C:\WINDOWS\SYSTEM32\VERSION.dll"]
+      7ffa`e01e7000     7ffa`e01ea000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [VERSION; "C:\WINDOWS\SYSTEM32\VERSION.dll"]
++     7ffa`e01ea000     7ffa`e02d0000        0`000e6000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e02d0000     7ffa`e02d1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINSPOOL; "C:\WINDOWS\SYSTEM32\WINSPOOL.DRV"]
+      7ffa`e02d1000     7ffa`e0318000        0`00047000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [WINSPOOL; "C:\WINDOWS\SYSTEM32\WINSPOOL.DRV"]
+      7ffa`e0318000     7ffa`e0337000        0`0001f000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINSPOOL; "C:\WINDOWS\SYSTEM32\WINSPOOL.DRV"]
+      7ffa`e0337000     7ffa`e0339000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [WINSPOOL; "C:\WINDOWS\SYSTEM32\WINSPOOL.DRV"]
+      7ffa`e0339000     7ffa`e0356000        0`0001d000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINSPOOL; "C:\WINDOWS\SYSTEM32\WINSPOOL.DRV"]
++     7ffa`e0356000     7ffa`e1520000        0`011ca000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e1520000     7ffa`e1521000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WTSAPI32; "C:\WINDOWS\SYSTEM32\WTSAPI32.dll"]
+      7ffa`e1521000     7ffa`e152a000        0`00009000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [WTSAPI32; "C:\WINDOWS\SYSTEM32\WTSAPI32.dll"]
+      7ffa`e152a000     7ffa`e152e000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WTSAPI32; "C:\WINDOWS\SYSTEM32\WTSAPI32.dll"]
+      7ffa`e152e000     7ffa`e152f000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [WTSAPI32; "C:\WINDOWS\SYSTEM32\WTSAPI32.dll"]
+      7ffa`e152f000     7ffa`e1533000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WTSAPI32; "C:\WINDOWS\SYSTEM32\WTSAPI32.dll"]
++     7ffa`e1533000     7ffa`e2530000        0`00ffd000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e2530000     7ffa`e2531000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINMMBASE; "C:\WINDOWS\SYSTEM32\WINMMBASE.dll"]
+      7ffa`e2531000     7ffa`e254b000        0`0001a000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [WINMMBASE; "C:\WINDOWS\SYSTEM32\WINMMBASE.dll"]
+      7ffa`e254b000     7ffa`e2553000        0`00008000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINMMBASE; "C:\WINDOWS\SYSTEM32\WINMMBASE.dll"]
+      7ffa`e2553000     7ffa`e2555000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [WINMMBASE; "C:\WINDOWS\SYSTEM32\WINMMBASE.dll"]
+      7ffa`e2555000     7ffa`e255a000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINMMBASE; "C:\WINDOWS\SYSTEM32\WINMMBASE.dll"]
++     7ffa`e255a000     7ffa`e2590000        0`00036000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e2590000     7ffa`e2591000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINMM; "C:\WINDOWS\SYSTEM32\WINMM.dll"]
+      7ffa`e2591000     7ffa`e25a1000        0`00010000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [WINMM; "C:\WINDOWS\SYSTEM32\WINMM.dll"]
+      7ffa`e25a1000     7ffa`e25a8000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINMM; "C:\WINDOWS\SYSTEM32\WINMM.dll"]
+      7ffa`e25a8000     7ffa`e25aa000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [WINMM; "C:\WINDOWS\SYSTEM32\WINMM.dll"]
+      7ffa`e25aa000     7ffa`e25b3000        0`00009000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINMM; "C:\WINDOWS\SYSTEM32\WINMM.dll"]
++     7ffa`e25b3000     7ffa`e4730000        0`0217d000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e4730000     7ffa`e4731000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINHTTP; "C:\WINDOWS\SYSTEM32\WINHTTP.dll"]
+      7ffa`e4731000     7ffa`e47da000        0`000a9000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [WINHTTP; "C:\WINDOWS\SYSTEM32\WINHTTP.dll"]
+      7ffa`e47da000     7ffa`e47f9000        0`0001f000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINHTTP; "C:\WINDOWS\SYSTEM32\WINHTTP.dll"]
+      7ffa`e47f9000     7ffa`e47fb000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [WINHTTP; "C:\WINDOWS\SYSTEM32\WINHTTP.dll"]
+      7ffa`e47fb000     7ffa`e480e000        0`00013000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINHTTP; "C:\WINDOWS\SYSTEM32\WINHTTP.dll"]
++     7ffa`e480e000     7ffa`e4ff0000        0`007e2000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e4ff0000     7ffa`e4ff1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [dxgi; "C:\WINDOWS\SYSTEM32\dxgi.dll"]
+      7ffa`e4ff1000     7ffa`e5058000        0`00067000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [dxgi; "C:\WINDOWS\SYSTEM32\dxgi.dll"]
+      7ffa`e5058000     7ffa`e507c000        0`00024000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [dxgi; "C:\WINDOWS\SYSTEM32\dxgi.dll"]
+      7ffa`e507c000     7ffa`e507d000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [dxgi; "C:\WINDOWS\SYSTEM32\dxgi.dll"]
+      7ffa`e507d000     7ffa`e507e000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [dxgi; "C:\WINDOWS\SYSTEM32\dxgi.dll"]
+      7ffa`e507e000     7ffa`e507f000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [dxgi; "C:\WINDOWS\SYSTEM32\dxgi.dll"]
+      7ffa`e507f000     7ffa`e5080000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [dxgi; "C:\WINDOWS\SYSTEM32\dxgi.dll"]
+      7ffa`e5080000     7ffa`e509f000        0`0001f000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [dxgi; "C:\WINDOWS\SYSTEM32\dxgi.dll"]
++     7ffa`e509f000     7ffa`e5f10000        0`00e71000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e5f10000     7ffa`e5f11000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [IPHLPAPI; "C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL"]
+      7ffa`e5f11000     7ffa`e5f38000        0`00027000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [IPHLPAPI; "C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL"]
+      7ffa`e5f38000     7ffa`e5f43000        0`0000b000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [IPHLPAPI; "C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL"]
+      7ffa`e5f43000     7ffa`e5f44000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [IPHLPAPI; "C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL"]
+      7ffa`e5f44000     7ffa`e5f49000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [IPHLPAPI; "C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL"]
++     7ffa`e5f49000     7ffa`e6340000        0`003f7000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e6340000     7ffa`e6341000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [CRYPTBASE; "C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL"]
+      7ffa`e6341000     7ffa`e6343000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [CRYPTBASE; "C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL"]
+      7ffa`e6343000     7ffa`e6346000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [CRYPTBASE; "C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL"]
+      7ffa`e6346000     7ffa`e6347000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [CRYPTBASE; "C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL"]
+      7ffa`e6347000     7ffa`e634b000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [CRYPTBASE; "C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL"]
++     7ffa`e634b000     7ffa`e6700000        0`003b5000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e6700000     7ffa`e6701000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [bcrypt; "C:\WINDOWS\SYSTEM32\bcrypt.dll"]
+      7ffa`e6701000     7ffa`e6719000        0`00018000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [bcrypt; "C:\WINDOWS\SYSTEM32\bcrypt.dll"]
+      7ffa`e6719000     7ffa`e671f000        0`00006000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [bcrypt; "C:\WINDOWS\SYSTEM32\bcrypt.dll"]
+      7ffa`e671f000     7ffa`e6720000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [bcrypt; "C:\WINDOWS\SYSTEM32\bcrypt.dll"]
+      7ffa`e6720000     7ffa`e6725000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [bcrypt; "C:\WINDOWS\SYSTEM32\bcrypt.dll"]
++     7ffa`e6725000     7ffa`e67a0000        0`0007b000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e67a0000     7ffa`e67a1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [dbghelp; "C:\WINDOWS\SYSTEM32\dbghelp.dll"]
+      7ffa`e67a1000     7ffa`e68d3000        0`00132000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [dbghelp; "C:\WINDOWS\SYSTEM32\dbghelp.dll"]
+      7ffa`e68d3000     7ffa`e6925000        0`00052000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [dbghelp; "C:\WINDOWS\SYSTEM32\dbghelp.dll"]
+      7ffa`e6925000     7ffa`e6929000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [dbghelp; "C:\WINDOWS\SYSTEM32\dbghelp.dll"]
+      7ffa`e6929000     7ffa`e692a000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [dbghelp; "C:\WINDOWS\SYSTEM32\dbghelp.dll"]
+      7ffa`e692a000     7ffa`e692d000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [dbghelp; "C:\WINDOWS\SYSTEM32\dbghelp.dll"]
+      7ffa`e692d000     7ffa`e694b000        0`0001e000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [dbghelp; "C:\WINDOWS\SYSTEM32\dbghelp.dll"]
+      7ffa`e694b000     7ffa`e6968000        0`0001d000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [dbghelp; "C:\WINDOWS\SYSTEM32\dbghelp.dll"]
++     7ffa`e6968000     7ffa`e6b40000        0`001d8000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e6b40000     7ffa`e6b41000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [SSPICLI; "C:\WINDOWS\SYSTEM32\SSPICLI.DLL"]
+      7ffa`e6b41000     7ffa`e6b5e000        0`0001d000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [SSPICLI; "C:\WINDOWS\SYSTEM32\SSPICLI.DLL"]
+      7ffa`e6b5e000     7ffa`e6b69000        0`0000b000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [SSPICLI; "C:\WINDOWS\SYSTEM32\SSPICLI.DLL"]
+      7ffa`e6b69000     7ffa`e6b6a000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [SSPICLI; "C:\WINDOWS\SYSTEM32\SSPICLI.DLL"]
+      7ffa`e6b6a000     7ffa`e6b6b000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [SSPICLI; "C:\WINDOWS\SYSTEM32\SSPICLI.DLL"]
+      7ffa`e6b6b000     7ffa`e6b70000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [SSPICLI; "C:\WINDOWS\SYSTEM32\SSPICLI.DLL"]
++     7ffa`e6b70000     7ffa`e6b71000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [USERENV; "C:\WINDOWS\SYSTEM32\USERENV.dll"]
+      7ffa`e6b71000     7ffa`e6b88000        0`00017000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [USERENV; "C:\WINDOWS\SYSTEM32\USERENV.dll"]
+      7ffa`e6b88000     7ffa`e6b91000        0`00009000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [USERENV; "C:\WINDOWS\SYSTEM32\USERENV.dll"]
+      7ffa`e6b91000     7ffa`e6b92000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [USERENV; "C:\WINDOWS\SYSTEM32\USERENV.dll"]
+      7ffa`e6b92000     7ffa`e6b99000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [USERENV; "C:\WINDOWS\SYSTEM32\USERENV.dll"]
++     7ffa`e6b99000     7ffa`e6c40000        0`000a7000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e6c40000     7ffa`e6c41000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [powrprof; "C:\WINDOWS\System32\powrprof.dll"]
+      7ffa`e6c41000     7ffa`e6c53000        0`00012000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [powrprof; "C:\WINDOWS\System32\powrprof.dll"]
+      7ffa`e6c53000     7ffa`e6c5e000        0`0000b000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [powrprof; "C:\WINDOWS\System32\powrprof.dll"]
+      7ffa`e6c5e000     7ffa`e6c5f000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [powrprof; "C:\WINDOWS\System32\powrprof.dll"]
+      7ffa`e6c5f000     7ffa`e6c8c000        0`0002d000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [powrprof; "C:\WINDOWS\System32\powrprof.dll"]
++     7ffa`e6c8c000     7ffa`e6c90000        0`00004000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e6c90000     7ffa`e6c91000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [profapi; "C:\WINDOWS\System32\profapi.dll"]
+      7ffa`e6c91000     7ffa`e6c9e000        0`0000d000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [profapi; "C:\WINDOWS\System32\profapi.dll"]
+      7ffa`e6c9e000     7ffa`e6ca5000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [profapi; "C:\WINDOWS\System32\profapi.dll"]
+      7ffa`e6ca5000     7ffa`e6ca6000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [profapi; "C:\WINDOWS\System32\profapi.dll"]
+      7ffa`e6ca6000     7ffa`e6cab000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [profapi; "C:\WINDOWS\System32\profapi.dll"]
++     7ffa`e6cab000     7ffa`e6cb0000        0`00005000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e6cb0000     7ffa`e6cb1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [MSASN1; "C:\WINDOWS\System32\MSASN1.dll"]
+      7ffa`e6cb1000     7ffa`e6cba000        0`00009000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [MSASN1; "C:\WINDOWS\System32\MSASN1.dll"]
+      7ffa`e6cba000     7ffa`e6cbe000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [MSASN1; "C:\WINDOWS\System32\MSASN1.dll"]
+      7ffa`e6cbe000     7ffa`e6cbf000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [MSASN1; "C:\WINDOWS\System32\MSASN1.dll"]
+      7ffa`e6cbf000     7ffa`e6cc2000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [MSASN1; "C:\WINDOWS\System32\MSASN1.dll"]
++     7ffa`e6cc2000     7ffa`e6cd0000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e6cd0000     7ffa`e6cd1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [kernel_appcore; "C:\WINDOWS\System32\kernel.appcore.dll"]
+      7ffa`e6cd1000     7ffa`e6cd5000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [kernel_appcore; "C:\WINDOWS\System32\kernel.appcore.dll"]
+      7ffa`e6cd5000     7ffa`e6cdc000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [kernel_appcore; "C:\WINDOWS\System32\kernel.appcore.dll"]
+      7ffa`e6cdc000     7ffa`e6cdd000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [kernel_appcore; "C:\WINDOWS\System32\kernel.appcore.dll"]
+      7ffa`e6cdd000     7ffa`e6ce1000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [kernel_appcore; "C:\WINDOWS\System32\kernel.appcore.dll"]
++     7ffa`e6ce1000     7ffa`e6cf0000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e6cf0000     7ffa`e6cf1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [KERNELBASE; "C:\WINDOWS\System32\KERNELBASE.dll"]
+      7ffa`e6cf1000     7ffa`e6dde000        0`000ed000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [KERNELBASE; "C:\WINDOWS\System32\KERNELBASE.dll"]
+      7ffa`e6dde000     7ffa`e6f20000        0`00142000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [KERNELBASE; "C:\WINDOWS\System32\KERNELBASE.dll"]
+      7ffa`e6f20000     7ffa`e6f24000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [KERNELBASE; "C:\WINDOWS\System32\KERNELBASE.dll"]
+      7ffa`e6f24000     7ffa`e6f25000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [KERNELBASE; "C:\WINDOWS\System32\KERNELBASE.dll"]
+      7ffa`e6f25000     7ffa`e6f56000        0`00031000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [KERNELBASE; "C:\WINDOWS\System32\KERNELBASE.dll"]
++     7ffa`e6f56000     7ffa`e6f60000        0`0000a000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e6f60000     7ffa`e6f61000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [windows_storage; "C:\WINDOWS\System32\windows.storage.dll"]
+      7ffa`e6f61000     7ffa`e7479000        0`00518000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [windows_storage; "C:\WINDOWS\System32\windows.storage.dll"]
+      7ffa`e7479000     7ffa`e762d000        0`001b4000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [windows_storage; "C:\WINDOWS\System32\windows.storage.dll"]
+      7ffa`e762d000     7ffa`e7634000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [windows_storage; "C:\WINDOWS\System32\windows.storage.dll"]
+      7ffa`e7634000     7ffa`e7635000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [windows_storage; "C:\WINDOWS\System32\windows.storage.dll"]
+      7ffa`e7635000     7ffa`e76a7000        0`00072000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [windows_storage; "C:\WINDOWS\System32\windows.storage.dll"]
++     7ffa`e76a7000     7ffa`e76b0000        0`00009000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e76b0000     7ffa`e76b1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [cfgmgr32; "C:\WINDOWS\System32\cfgmgr32.dll"]
+      7ffa`e76b1000     7ffa`e76e4000        0`00033000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [cfgmgr32; "C:\WINDOWS\System32\cfgmgr32.dll"]
+      7ffa`e76e4000     7ffa`e76f2000        0`0000e000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [cfgmgr32; "C:\WINDOWS\System32\cfgmgr32.dll"]
+      7ffa`e76f2000     7ffa`e76f3000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [cfgmgr32; "C:\WINDOWS\System32\cfgmgr32.dll"]
+      7ffa`e76f3000     7ffa`e76f4000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [cfgmgr32; "C:\WINDOWS\System32\cfgmgr32.dll"]
+      7ffa`e76f4000     7ffa`e76fa000        0`00006000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [cfgmgr32; "C:\WINDOWS\System32\cfgmgr32.dll"]
++     7ffa`e76fa000     7ffa`e7700000        0`00006000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e7700000     7ffa`e7701000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [bcryptPrimitives; "C:\WINDOWS\System32\bcryptPrimitives.dll"]
+      7ffa`e7701000     7ffa`e7759000        0`00058000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [bcryptPrimitives; "C:\WINDOWS\System32\bcryptPrimitives.dll"]
+      7ffa`e7759000     7ffa`e776c000        0`00013000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [bcryptPrimitives; "C:\WINDOWS\System32\bcryptPrimitives.dll"]
+      7ffa`e776c000     7ffa`e776d000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [bcryptPrimitives; "C:\WINDOWS\System32\bcryptPrimitives.dll"]
+      7ffa`e776d000     7ffa`e7772000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [bcryptPrimitives; "C:\WINDOWS\System32\bcryptPrimitives.dll"]
++     7ffa`e7772000     7ffa`e7780000        0`0000e000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e7780000     7ffa`e7781000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [CRYPT32; "C:\WINDOWS\System32\CRYPT32.dll"]
+      7ffa`e7781000     7ffa`e787a000        0`000f9000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [CRYPT32; "C:\WINDOWS\System32\CRYPT32.dll"]
+      7ffa`e787a000     7ffa`e78b3000        0`00039000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [CRYPT32; "C:\WINDOWS\System32\CRYPT32.dll"]
+      7ffa`e78b3000     7ffa`e78ba000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [CRYPT32; "C:\WINDOWS\System32\CRYPT32.dll"]
+      7ffa`e78ba000     7ffa`e794e000        0`00094000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [CRYPT32; "C:\WINDOWS\System32\CRYPT32.dll"]
++     7ffa`e794e000     7ffa`e7950000        0`00002000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e7950000     7ffa`e7951000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [gdi32full; "C:\WINDOWS\System32\gdi32full.dll"]
+      7ffa`e7951000     7ffa`e7a1b000        0`000ca000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [gdi32full; "C:\WINDOWS\System32\gdi32full.dll"]
+      7ffa`e7a1b000     7ffa`e7ac0000        0`000a5000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [gdi32full; "C:\WINDOWS\System32\gdi32full.dll"]
+      7ffa`e7ac0000     7ffa`e7ac4000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [gdi32full; "C:\WINDOWS\System32\gdi32full.dll"]
+      7ffa`e7ac4000     7ffa`e7ac5000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [gdi32full; "C:\WINDOWS\System32\gdi32full.dll"]
+      7ffa`e7ac5000     7ffa`e7ae3000        0`0001e000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [gdi32full; "C:\WINDOWS\System32\gdi32full.dll"]
++     7ffa`e7ae3000     7ffa`e7af0000        0`0000d000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e7af0000     7ffa`e7af1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINTRUST; "C:\WINDOWS\System32\WINTRUST.dll"]
+      7ffa`e7af1000     7ffa`e7b2b000        0`0003a000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [WINTRUST; "C:\WINDOWS\System32\WINTRUST.dll"]
+      7ffa`e7b2b000     7ffa`e7b3f000        0`00014000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINTRUST; "C:\WINDOWS\System32\WINTRUST.dll"]
+      7ffa`e7b3f000     7ffa`e7b40000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [WINTRUST; "C:\WINDOWS\System32\WINTRUST.dll"]
+      7ffa`e7b40000     7ffa`e7b48000        0`00008000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [WINTRUST; "C:\WINDOWS\System32\WINTRUST.dll"]
++     7ffa`e7b48000     7ffa`e7b50000        0`00008000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e7b50000     7ffa`e7b51000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [ucrtbase; "C:\WINDOWS\System32\ucrtbase.dll"]
+      7ffa`e7b51000     7ffa`e7bfc000        0`000ab000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [ucrtbase; "C:\WINDOWS\System32\ucrtbase.dll"]
+      7ffa`e7bfc000     7ffa`e7c35000        0`00039000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [ucrtbase; "C:\WINDOWS\System32\ucrtbase.dll"]
+      7ffa`e7c35000     7ffa`e7c38000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [ucrtbase; "C:\WINDOWS\System32\ucrtbase.dll"]
+      7ffa`e7c38000     7ffa`e7c46000        0`0000e000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [ucrtbase; "C:\WINDOWS\System32\ucrtbase.dll"]
++     7ffa`e7c46000     7ffa`e7c50000        0`0000a000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e7c50000     7ffa`e7c51000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [msvcp_win; "C:\WINDOWS\System32\msvcp_win.dll"]
+      7ffa`e7c51000     7ffa`e7ca0000        0`0004f000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [msvcp_win; "C:\WINDOWS\System32\msvcp_win.dll"]
+      7ffa`e7ca0000     7ffa`e7ce0000        0`00040000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [msvcp_win; "C:\WINDOWS\System32\msvcp_win.dll"]
+      7ffa`e7ce0000     7ffa`e7ce1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [msvcp_win; "C:\WINDOWS\System32\msvcp_win.dll"]
+      7ffa`e7ce1000     7ffa`e7ce4000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [msvcp_win; "C:\WINDOWS\System32\msvcp_win.dll"]
+      7ffa`e7ce4000     7ffa`e7ceb000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [msvcp_win; "C:\WINDOWS\System32\msvcp_win.dll"]
++     7ffa`e7ceb000     7ffa`e7da0000        0`000b5000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e7da0000     7ffa`e7da1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [win32u; "C:\WINDOWS\System32\win32u.dll"]
+      7ffa`e7da1000     7ffa`e7dab000        0`0000a000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [win32u; "C:\WINDOWS\System32\win32u.dll"]
+      7ffa`e7dab000     7ffa`e7db9000        0`0000e000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [win32u; "C:\WINDOWS\System32\win32u.dll"]
+      7ffa`e7db9000     7ffa`e7dba000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [win32u; "C:\WINDOWS\System32\win32u.dll"]
+      7ffa`e7dba000     7ffa`e7dc0000        0`00006000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [win32u; "C:\WINDOWS\System32\win32u.dll"]
++     7ffa`e7dc0000     7ffa`e7e60000        0`000a0000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e7e60000     7ffa`e7e61000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [IMM32; "C:\WINDOWS\System32\IMM32.DLL"]
+      7ffa`e7e61000     7ffa`e7e7c000        0`0001b000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [IMM32; "C:\WINDOWS\System32\IMM32.DLL"]
+      7ffa`e7e7c000     7ffa`e7e83000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [IMM32; "C:\WINDOWS\System32\IMM32.DLL"]
+      7ffa`e7e83000     7ffa`e7e84000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [IMM32; "C:\WINDOWS\System32\IMM32.DLL"]
+      7ffa`e7e84000     7ffa`e7e8d000        0`00009000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [IMM32; "C:\WINDOWS\System32\IMM32.DLL"]
++     7ffa`e7e8d000     7ffa`e7e90000        0`00003000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e7e90000     7ffa`e7e91000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [imagehlp; "C:\WINDOWS\System32\imagehlp.dll"]
+      7ffa`e7e91000     7ffa`e7e9c000        0`0000b000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [imagehlp; "C:\WINDOWS\System32\imagehlp.dll"]
+      7ffa`e7e9c000     7ffa`e7ea4000        0`00008000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [imagehlp; "C:\WINDOWS\System32\imagehlp.dll"]
+      7ffa`e7ea4000     7ffa`e7ea5000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [imagehlp; "C:\WINDOWS\System32\imagehlp.dll"]
+      7ffa`e7ea5000     7ffa`e7ea6000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [imagehlp; "C:\WINDOWS\System32\imagehlp.dll"]
+      7ffa`e7ea6000     7ffa`e7ead000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [imagehlp; "C:\WINDOWS\System32\imagehlp.dll"]
++     7ffa`e7ead000     7ffa`e7eb0000        0`00003000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e7eb0000     7ffa`e7eb1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [USER32; "C:\WINDOWS\System32\USER32.dll"]
+      7ffa`e7eb1000     7ffa`e7f33000        0`00082000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [USER32; "C:\WINDOWS\System32\USER32.dll"]
+      7ffa`e7f33000     7ffa`e7f52000        0`0001f000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [USER32; "C:\WINDOWS\System32\USER32.dll"]
+      7ffa`e7f52000     7ffa`e7f54000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [USER32; "C:\WINDOWS\System32\USER32.dll"]
+      7ffa`e7f54000     7ffa`e803f000        0`000eb000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [USER32; "C:\WINDOWS\System32\USER32.dll"]
++     7ffa`e803f000     7ffa`e8040000        0`00001000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e8040000     7ffa`e8041000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_EXECUTE_READ                  <unknown>  [................]
++     7ffa`e8041000     7ffa`e80b0000        0`0006f000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e80b0000     7ffa`e80b1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [NSI; "C:\WINDOWS\System32\NSI.dll"]
+      7ffa`e80b1000     7ffa`e80b3000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [NSI; "C:\WINDOWS\System32\NSI.dll"]
+      7ffa`e80b3000     7ffa`e80b4000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [NSI; "C:\WINDOWS\System32\NSI.dll"]
+      7ffa`e80b4000     7ffa`e80b5000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [NSI; "C:\WINDOWS\System32\NSI.dll"]
+      7ffa`e80b5000     7ffa`e80b8000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [NSI; "C:\WINDOWS\System32\NSI.dll"]
++     7ffa`e80b8000     7ffa`e80c0000        0`00008000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e80c0000     7ffa`e80c1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [OLEAUT32; "C:\WINDOWS\System32\OLEAUT32.dll"]
+      7ffa`e80c1000     7ffa`e814c000        0`0008b000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [OLEAUT32; "C:\WINDOWS\System32\OLEAUT32.dll"]
+      7ffa`e814c000     7ffa`e8173000        0`00027000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [OLEAUT32; "C:\WINDOWS\System32\OLEAUT32.dll"]
+      7ffa`e8173000     7ffa`e8176000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [OLEAUT32; "C:\WINDOWS\System32\OLEAUT32.dll"]
+      7ffa`e8176000     7ffa`e8185000        0`0000f000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [OLEAUT32; "C:\WINDOWS\System32\OLEAUT32.dll"]
++     7ffa`e8185000     7ffa`e81a0000        0`0001b000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e81a0000     7ffa`e81a1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [shlwapi; "C:\WINDOWS\System32\shlwapi.dll"]
+      7ffa`e81a1000     7ffa`e81ca000        0`00029000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [shlwapi; "C:\WINDOWS\System32\shlwapi.dll"]
+      7ffa`e81ca000     7ffa`e81ea000        0`00020000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [shlwapi; "C:\WINDOWS\System32\shlwapi.dll"]
+      7ffa`e81ea000     7ffa`e81eb000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [shlwapi; "C:\WINDOWS\System32\shlwapi.dll"]
+      7ffa`e81eb000     7ffa`e81f1000        0`00006000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [shlwapi; "C:\WINDOWS\System32\shlwapi.dll"]
++     7ffa`e81f1000     7ffa`e8260000        0`0006f000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e8260000     7ffa`e8261000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [combase; "C:\WINDOWS\System32\combase.dll"]
+      7ffa`e8261000     7ffa`e8460000        0`001ff000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [combase; "C:\WINDOWS\System32\combase.dll"]
+      7ffa`e8460000     7ffa`e851a000        0`000ba000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [combase; "C:\WINDOWS\System32\combase.dll"]
+      7ffa`e851a000     7ffa`e851b000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [combase; "C:\WINDOWS\System32\combase.dll"]
+      7ffa`e851b000     7ffa`e851c000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [combase; "C:\WINDOWS\System32\combase.dll"]
+      7ffa`e851c000     7ffa`e8520000        0`00004000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [combase; "C:\WINDOWS\System32\combase.dll"]
+      7ffa`e8520000     7ffa`e8568000        0`00048000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [combase; "C:\WINDOWS\System32\combase.dll"]
++     7ffa`e8568000     7ffa`e8710000        0`001a8000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e8710000     7ffa`e8711000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [COMDLG32; "C:\WINDOWS\System32\COMDLG32.dll"]
+      7ffa`e8711000     7ffa`e87a9000        0`00098000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [COMDLG32; "C:\WINDOWS\System32\COMDLG32.dll"]
+      7ffa`e87a9000     7ffa`e87c8000        0`0001f000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [COMDLG32; "C:\WINDOWS\System32\COMDLG32.dll"]
+      7ffa`e87c8000     7ffa`e87cd000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [COMDLG32; "C:\WINDOWS\System32\COMDLG32.dll"]
+      7ffa`e87cd000     7ffa`e881a000        0`0004d000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [COMDLG32; "C:\WINDOWS\System32\COMDLG32.dll"]
++     7ffa`e881a000     7ffa`e8820000        0`00006000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e8820000     7ffa`e8821000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [SHELL32; "C:\WINDOWS\System32\SHELL32.dll"]
+      7ffa`e8821000     7ffa`e8cf8000        0`004d7000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [SHELL32; "C:\WINDOWS\System32\SHELL32.dll"]
+      7ffa`e8cf8000     7ffa`e8e06000        0`0010e000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [SHELL32; "C:\WINDOWS\System32\SHELL32.dll"]
+      7ffa`e8e06000     7ffa`e8e0d000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [SHELL32; "C:\WINDOWS\System32\SHELL32.dll"]
+      7ffa`e8e0d000     7ffa`e8e0f000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [SHELL32; "C:\WINDOWS\System32\SHELL32.dll"]
+      7ffa`e8e0f000     7ffa`e9c56000        0`00e47000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [SHELL32; "C:\WINDOWS\System32\SHELL32.dll"]
++     7ffa`e9c56000     7ffa`e9de0000        0`0018a000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e9de0000     7ffa`e9de1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [shcore; "C:\WINDOWS\System32\shcore.dll"]
+      7ffa`e9de1000     7ffa`e9e50000        0`0006f000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [shcore; "C:\WINDOWS\System32\shcore.dll"]
+      7ffa`e9e50000     7ffa`e9e75000        0`00025000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [shcore; "C:\WINDOWS\System32\shcore.dll"]
+      7ffa`e9e75000     7ffa`e9e76000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [shcore; "C:\WINDOWS\System32\shcore.dll"]
+      7ffa`e9e76000     7ffa`e9e77000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [shcore; "C:\WINDOWS\System32\shcore.dll"]
+      7ffa`e9e77000     7ffa`e9e86000        0`0000f000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [shcore; "C:\WINDOWS\System32\shcore.dll"]
++     7ffa`e9e86000     7ffa`e9e90000        0`0000a000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e9e90000     7ffa`e9e91000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [KERNEL32; "C:\WINDOWS\System32\KERNEL32.DLL"]
+      7ffa`e9e91000     7ffa`e9f03000        0`00072000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [KERNEL32; "C:\WINDOWS\System32\KERNEL32.DLL"]
+      7ffa`e9f03000     7ffa`e9f34000        0`00031000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [KERNEL32; "C:\WINDOWS\System32\KERNEL32.DLL"]
+      7ffa`e9f34000     7ffa`e9f35000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [KERNEL32; "C:\WINDOWS\System32\KERNEL32.DLL"]
+      7ffa`e9f35000     7ffa`e9f36000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [KERNEL32; "C:\WINDOWS\System32\KERNEL32.DLL"]
+      7ffa`e9f36000     7ffa`e9f3e000        0`00008000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [KERNEL32; "C:\WINDOWS\System32\KERNEL32.DLL"]
++     7ffa`e9f3e000     7ffa`e9f40000        0`00002000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e9f40000     7ffa`e9f41000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_EXECUTE_READ                  <unknown>  [................]
++     7ffa`e9f41000     7ffa`e9fa0000        0`0005f000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`e9fa0000     7ffa`e9fa1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [msvcrt; "C:\WINDOWS\System32\msvcrt.dll"]
+      7ffa`e9fa1000     7ffa`ea015000        0`00074000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [msvcrt; "C:\WINDOWS\System32\msvcrt.dll"]
+      7ffa`ea015000     7ffa`ea02e000        0`00019000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [msvcrt; "C:\WINDOWS\System32\msvcrt.dll"]
+      7ffa`ea02e000     7ffa`ea030000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [msvcrt; "C:\WINDOWS\System32\msvcrt.dll"]
+      7ffa`ea030000     7ffa`ea033000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [msvcrt; "C:\WINDOWS\System32\msvcrt.dll"]
+      7ffa`ea033000     7ffa`ea036000        0`00003000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [msvcrt; "C:\WINDOWS\System32\msvcrt.dll"]
+      7ffa`ea036000     7ffa`ea03d000        0`00007000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [msvcrt; "C:\WINDOWS\System32\msvcrt.dll"]
++     7ffa`ea03d000     7ffa`ea040000        0`00003000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`ea040000     7ffa`ea041000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [advapi32; "C:\WINDOWS\System32\advapi32.dll"]
+      7ffa`ea041000     7ffa`ea09e000        0`0005d000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [advapi32; "C:\WINDOWS\System32\advapi32.dll"]
+      7ffa`ea09e000     7ffa`ea0d3000        0`00035000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [advapi32; "C:\WINDOWS\System32\advapi32.dll"]
+      7ffa`ea0d3000     7ffa`ea0d4000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [advapi32; "C:\WINDOWS\System32\advapi32.dll"]
+      7ffa`ea0d4000     7ffa`ea0d5000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [advapi32; "C:\WINDOWS\System32\advapi32.dll"]
+      7ffa`ea0d5000     7ffa`ea0d7000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [advapi32; "C:\WINDOWS\System32\advapi32.dll"]
+      7ffa`ea0d7000     7ffa`ea0d8000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [advapi32; "C:\WINDOWS\System32\advapi32.dll"]
+      7ffa`ea0d8000     7ffa`ea0e1000        0`00009000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [advapi32; "C:\WINDOWS\System32\advapi32.dll"]
++     7ffa`ea0e1000     7ffa`ea0f0000        0`0000f000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`ea0f0000     7ffa`ea0f1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [GDI32; "C:\WINDOWS\System32\GDI32.dll"]
+      7ffa`ea0f1000     7ffa`ea0fe000        0`0000d000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [GDI32; "C:\WINDOWS\System32\GDI32.dll"]
+      7ffa`ea0fe000     7ffa`ea112000        0`00014000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [GDI32; "C:\WINDOWS\System32\GDI32.dll"]
+      7ffa`ea112000     7ffa`ea113000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [GDI32; "C:\WINDOWS\System32\GDI32.dll"]
+      7ffa`ea113000     7ffa`ea118000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [GDI32; "C:\WINDOWS\System32\GDI32.dll"]
++     7ffa`ea118000     7ffa`ea120000        0`00008000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`ea120000     7ffa`ea121000        0`00001000 MEM_PRIVATE MEM_COMMIT  PAGE_EXECUTE_READ                  <unknown>  [................]
++     7ffa`ea121000     7ffa`ea570000        0`0044f000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`ea570000     7ffa`ea571000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [ole32; "C:\WINDOWS\System32\ole32.dll"]
+      7ffa`ea571000     7ffa`ea631000        0`000c0000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [ole32; "C:\WINDOWS\System32\ole32.dll"]
+      7ffa`ea631000     7ffa`ea68c000        0`0005b000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [ole32; "C:\WINDOWS\System32\ole32.dll"]
+      7ffa`ea68c000     7ffa`ea68e000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [ole32; "C:\WINDOWS\System32\ole32.dll"]
+      7ffa`ea68e000     7ffa`ea6b9000        0`0002b000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [ole32; "C:\WINDOWS\System32\ole32.dll"]
++     7ffa`ea6b9000     7ffa`ea740000        0`00087000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`ea740000     7ffa`ea741000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [RPCRT4; "C:\WINDOWS\System32\RPCRT4.dll"]
+      7ffa`ea741000     7ffa`ea81d000        0`000dc000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [RPCRT4; "C:\WINDOWS\System32\RPCRT4.dll"]
+      7ffa`ea81d000     7ffa`ea848000        0`0002b000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [RPCRT4; "C:\WINDOWS\System32\RPCRT4.dll"]
+      7ffa`ea848000     7ffa`ea84a000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [RPCRT4; "C:\WINDOWS\System32\RPCRT4.dll"]
+      7ffa`ea84a000     7ffa`ea85f000        0`00015000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [RPCRT4; "C:\WINDOWS\System32\RPCRT4.dll"]
++     7ffa`ea85f000     7ffa`ea860000        0`00001000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`ea860000     7ffa`ea861000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [sechost; "C:\WINDOWS\System32\sechost.dll"]
+      7ffa`ea861000     7ffa`ea894000        0`00033000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [sechost; "C:\WINDOWS\System32\sechost.dll"]
+      7ffa`ea894000     7ffa`ea8b2000        0`0001e000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [sechost; "C:\WINDOWS\System32\sechost.dll"]
+      7ffa`ea8b2000     7ffa`ea8b3000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [sechost; "C:\WINDOWS\System32\sechost.dll"]
+      7ffa`ea8b3000     7ffa`ea8b4000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [sechost; "C:\WINDOWS\System32\sechost.dll"]
+      7ffa`ea8b4000     7ffa`ea8b5000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [sechost; "C:\WINDOWS\System32\sechost.dll"]
+      7ffa`ea8b5000     7ffa`ea8bb000        0`00006000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [sechost; "C:\WINDOWS\System32\sechost.dll"]
++     7ffa`ea8bb000     7ffa`ea8f0000        0`00035000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7ffa`ea8f0000     7ffa`ea8f1000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [ntdll; "C:\WINDOWS\SYSTEM32\ntdll.dll"]
+      7ffa`ea8f1000     7ffa`eaa03000        0`00112000 MEM_IMAGE   MEM_COMMIT  PAGE_EXECUTE_READ                  Image      [ntdll; "C:\WINDOWS\SYSTEM32\ntdll.dll"]
+      7ffa`eaa03000     7ffa`eaa49000        0`00046000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [ntdll; "C:\WINDOWS\SYSTEM32\ntdll.dll"]
+      7ffa`eaa49000     7ffa`eaa4a000        0`00001000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [ntdll; "C:\WINDOWS\SYSTEM32\ntdll.dll"]
+      7ffa`eaa4a000     7ffa`eaa4c000        0`00002000 MEM_IMAGE   MEM_COMMIT  PAGE_WRITECOPY                     Image      [ntdll; "C:\WINDOWS\SYSTEM32\ntdll.dll"]
+      7ffa`eaa4c000     7ffa`eaa51000        0`00005000 MEM_IMAGE   MEM_COMMIT  PAGE_READWRITE                     Image      [ntdll; "C:\WINDOWS\SYSTEM32\ntdll.dll"]
+      7ffa`eaa51000     7ffa`eaad0000        0`0007f000 MEM_IMAGE   MEM_COMMIT  PAGE_READONLY                      Image      [ntdll; "C:\WINDOWS\SYSTEM32\ntdll.dll"]
++     7ffa`eaad0000     7fff`fffe0000        5`15510000             MEM_FREE    PAGE_NOACCESS                      Free       
++     7fff`fffe0000     7fff`ffff0000        0`00010000 MEM_PRIVATE MEM_RESERVE PAGE_NOACCESS                      <unknown>  
+
